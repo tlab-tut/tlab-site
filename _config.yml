@@ -1,6 +1,6 @@
 
-title: T-lab (TUT) — Takahashi Laboratory
-description: "低コスト位置推定VGM・生活空間デジタルツイン・清掃ロボットの研究室"
+title: "システム工学研究室（高橋グループ）— 豊橋技術科学大学 機械系"
+description: "System Engineering Laboratory (Takahashi Group), Department of Mechanical Engineering, Toyohashi University of Technology"
 url: "https://tlab-tut.github.io"
 baseurl: "/tlab-site"
 lang: ja
@@ -30,10 +30,12 @@ plugins:
   - jekyll-sitemap
 
 lab:
-  ja_name: 高橋研究室（T-lab）
-  en_name: Takahashi Laboratory (T-lab)
-  email: "info@example.tut.ac.jp"
-  address: "〒441-8580 愛知県豊橋市天伯町雲雀ヶ丘1-1 D3-401（例）"
+  ja_name: "システム工学研究室（高橋グループ）"
+  en_name: "Takahashi Group, System Engineering Laboratory"
+  org_line_ja: "豊橋技術科学大学 機械系"
+  org_line_en: "Department of Mechanical Engineering, Toyohashi University of Technology"
+  email: "takahashi@me.tut.ac.jp"
+  address: "〒441-8580 愛知県豊橋市天伯町雲雀ヶ丘1-1 D-405"
   map_link: "https://maps.google.com"
   keywords: ["VGM", "Visual-Geometric Matching", "Digital Twin", "Cleaning Robots", "ROS2", "Indoor Localization"]
 
