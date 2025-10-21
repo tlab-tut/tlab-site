@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Access
-permalink: {{ site.baseurl }}/en/access/
+permalink: /en/
 ---
 
 **Address**: {{ site.lab.address }}  
