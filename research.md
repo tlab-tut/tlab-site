@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 研究紹介
-permalink: {{ site.baseurl }}/research/
+title: 研究テーマ
+permalink: /
 ---
 
 ## 研究テーマ
