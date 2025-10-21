@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: {{ site.baseurl }}/en/research/
+permalink: /en/
 ---
 
 ## Topics
