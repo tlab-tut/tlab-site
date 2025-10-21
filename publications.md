@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 研究成果
-permalink: {{ site.baseurl }}/publications/
+permalink: /
 ---
 
 ## 代表業績
