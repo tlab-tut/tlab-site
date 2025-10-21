@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "システム工学研究室（高橋グループ）— 豊橋技術科学大学 機械系"
+title: ホーム
 permalink: /
 ---
 
