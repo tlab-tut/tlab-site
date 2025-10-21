@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: {{ site.baseurl }}/en/publications/
+permalink: /en/
 ---
 
 ## Selected Works
