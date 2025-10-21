@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 研究テーマ
-permalink: /
+permalink: /research/
 ---
 
 ## VGMの性能向上
