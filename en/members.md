@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Members
-permalink: {{ site.baseurl }}/en/members/
+permalink: /en/
 ---
 
 ## Faculty
