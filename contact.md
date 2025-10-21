@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 連絡先
-permalink: {{ site.baseurl }}/contact/
+permalink: /
 ---
 
 **メール**：<{{ site.lab.email }}>  
