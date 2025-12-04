@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 研究発表
-permalink: /
+permalink: /publications
 ---
 
 ## 学術論文
