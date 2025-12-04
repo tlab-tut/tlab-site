@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Members
-permalink: /en/members
+permalink: /en/members/
 ---
 
 ## Faculty
