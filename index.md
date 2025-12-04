@@ -1,54 +1,54 @@
----
-layout: home
-title: ホーム
-permalink: /
----
+<header class="site-header" role="banner">
+  <div class="wrapper">
 
-# 高橋グループ（T-lab）
-システム工学研究室 — 豊橋技術科学大学 機械系
+    <!-- サイトタイトル（minima テーマ互換） -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {{ site.title | escape }}
+    </a>
 
-**産業分野から生活空間へ。**  
-私たちは、低コスト位置推定技術 **VGM（Visual-Geometric Matching）** を基盤に、  
-**製造業や物流システムなどの産業分野**でのデジタルトランスフォーメーション（DX）や自動化を支える研究を行っています。  
-さらに、その成果を発展させ、**人が生活する空間（生活空間）**におけるロボットの自律行動・協調的CPSの実現に取り組んでいます。
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484
+                     C0,0.665,0.665,0,1.484,0h15.031C17.335,0,18,0.665,18,1.484z
+                     M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516
+                     C0,6.696,0.665,6.031,1.484,6.031h15.031C17.335,6.031,18,6.696,18,7.516z
+                     M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516
+                     c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516z"/>
+          </svg>
+        </span>
+      </label>
 
-<div style="display:flex; flex-wrap:wrap; gap:.6rem; margin:1rem 0 1.25rem">
-  <a href="{{ site.baseurl }}/research/" style="padding:.6rem 1rem; border:1px solid rgba(0,0,0,.15); border-radius:.6rem; text-decoration:none;">研究紹介</a>
-  <a href="{{ site.baseurl }}/publications/" style="padding:.6rem 1rem; border:1px solid rgba(0,0,0,.15); border-radius:.6rem; text-decoration:none;">研究成果</a>
-  <a href="{{ site.baseurl }}/members/" style="padding:.6rem 1rem; border:1px solid rgba(0,0,0,.15); border-radius:.6rem; text-decoration:none;">メンバー</a>
-  <a href="{{ site.baseurl }}/en/" style="padding:.6rem 1rem; border:1px solid rgba(0,0,0,.15); border-radius:.6rem; text-decoration:none;">English</a>
-</div>
+      <div class="trigger">
+        {% comment %}
+          URL に /en/ が含まれていれば英語ページとみなす
+        {% endcomment %}
+        {% assign is_en = false %}
+        {% if page.url contains '/en/' %}
+          {% assign is_en = true %}
+        {% endif %}
 
----
-
-## 研究テーマ
-- **産業応用（製造・物流）**：単眼カメラによる位置推定・マッピング技術を活用し、工場・倉庫などのDXと自動化を支援  
-- **低コスト位置推定（VGM）**：単眼RGBカメラと事前マップを用いたクライアント・サーバ型ローカライゼーション  
-- **生活空間デジタルツイン**：大学・病院・図書館・商業施設など、人のいる環境への応用拡張  
-- **クリーンマネジメント**：床清潔度の自動評価、清掃計画生成、清掃ロボットの制御・評価  
-- **共通プラットフォーム**：ROS2、屋内マッピング、長期運用、実環境評価
-
-> 詳細は **[研究紹介ページ]({{ site.baseurl }}/research/)** をご覧ください。
-
----
-
-## 研究ハイライト
-- 長期運用を目的としたハイブリッドマップ（恒久3Dワイヤフレーム＋時系列線分）の構築による、**産業・サービスロボット向けローカライゼーション**の高信頼化。  
-  → 詳しくは **[研究成果ページ]({{ site.baseurl }}/publications/)** へ
-
----
-
-## 共同研究・学生募集
-高橋グループでは、  
-**製造業・物流分野から生活空間に至るまで**、位置推定・デジタルツイン・ロボティクス応用に関する  
-産学連携・共同研究を幅広く推進しています。  
-研究に興味のある学生・企業の方はお気軽にご連絡ください。
-
-- **連絡先**：<{{ site.lab.email }}>  
-- **所在地**：豊橋技術科学大学 D3棟（愛知県豊橋市）
-
----
-
-## お知らせ
-発表・デモ・受賞などの最新情報はこのページ下部に掲載しています。  
-英語版サイトは **[English page]({{ site.baseurl }}/en/)** からご覧いただけます。
+        {% if is_en %}
+          <!-- ===== 英語メニュー ===== -->
+          <a class="page-link" href="{{ "/en/" | relative_url }}">
+            Takahashi Group (T-lab)
+          </a>
+          <a class="page-link" href="{{ "/en/research/" | relative_url }}">
+            Research
+          </a>
+          <a class="page-link" href="{{ "/en/publications/" | relative_url }}">
+            Publications
+          </a>
+          <a class="page-link" href="{{ "/en/members/" | relative_url }}">
+            Members
+          </a>
+          <a class="page-link" href="{{ "/en/access/" | relative_url }}">
+            Access
+          </a>
+          <a class="page-link" href="{{ "/en/contact/" | relative_url }}">
+            Contact
+          </a>
+          <!-- 日本語トップへのリンク -->
+          <a class="page-link" href=
