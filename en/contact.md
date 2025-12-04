@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /en/
+permalink: /en/contact/
 ---
 
 **Email**: <{{ site.lab.email }}>  
