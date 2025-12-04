@@ -1,1 +1,86 @@
-_in
+<header class="site-header" role="banner">
+  <div class="wrapper">
+
+    <!-- サイトタイトル（テーマ minima と互換の書き方） -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484
+                     C0,0.665,0.665,0,1.484,0h15.031C17.335,0,18,0.665,18,1.484z
+                     M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516
+                     C0,6.696,0.665,6.031,1.484,6.031h15.031C17.335,6.031,18,6.696,18,7.516z
+                     M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516
+                     c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        {%- comment -%}
+        英語ページかどうかを URL で判定
+        {%- endcomment -%}
+        {% assign is_en = false %}
+        {% if page.url contains '/en/' %}
+          {% assign is_en = true %}
+        {% endif %}
+
+        {%- if is_en -%}
+          {# ------------ 英語メニュー ------------ #}
+          <a class="page-link" href="{{ "/en/" | relative_url }}">
+            Takahashi Group (T-lab)
+          </a>
+          <a class="page-link" href="{{ "/en/research/" | relative_url }}">
+            Research
+          </a>
+          <a class="page-link" href="{{ "/en/publications/" | relative_url }}">
+            Publications
+          </a>
+          <a class="page-link" href="{{ "/en/members/" | relative_url }}">
+            Members
+          </a>
+          <a class="page-link" href="{{ "/en/access/" | relative_url }}">
+            Access
+          </a>
+          <a class="page-link" href="{{ "/en/contact/" | relative_url }}">
+            Contact
+          </a>
+          <!-- 日本語トップへの切り替えリンク（小さめ） -->
+          <a class="page-link" href="{{ "/" | relative_url }}">
+            日本語
+          </a>
+        {%- else -%}
+          {# ------------ 日本語メニュー ------------ #}
+          <a class="page-link" href="{{ "/" | relative_url }}">
+            ホーム
+          </a>
+          <a class="page-link" href="{{ "/research/" | relative_url }}">
+            研究テーマ
+          </a>
+          <a class="page-link" href="{{ "/publications/" | relative_url }}">
+            研究業績
+          </a>
+          <a class="page-link" href="{{ "/members/" | relative_url }}">
+            メンバー
+          </a>
+          <a class="page-link" href="{{ "/access/" | relative_url }}">
+            アクセス
+          </a>
+          <a class="page-link" href="{{ "/contact/" | relative_url }}">
+            お問い合わせ
+          </a>
+          <!-- 英語トップへの切り替えリンク（小さめ） -->
+          <a class="page-link" href="{{ "/en/" | relative_url }}">
+            English
+          </a>
+        {%- endif -%}
+      </div>
+    </nav>
+
+  </div>
+</header>
