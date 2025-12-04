@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 研究発表
+title: 研究業績
 permalink: /publications
 ---
 
