@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 研究業績
-permalink: /publications
+permalink: /publications/
 ---
 
 ## 学術論文
