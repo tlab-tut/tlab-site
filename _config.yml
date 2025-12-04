@@ -34,7 +34,7 @@ lab:
   en_name: "Takahashi Group, System Engineering Laboratory"
   org_line_ja: "豊橋技術科学大学 機械系"
   org_line_en: "Department of Mechanical Engineering, Toyohashi University of Technology"
-  email: "takahashi@me.tut.ac.jp"
+  email: "takahashi[at]me.tut.ac.jp"
   address: "〒441-8580 愛知県豊橋市天伯町雲雀ヶ丘1-1 D-405"
   map_link: "https://maps.google.com"
   keywords: ["VGM", "Visual-Geometric Matching", "Digital Twin", "Cleaning Robots", "ROS2", "Indoor Localization"]
