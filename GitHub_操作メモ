@@ -1,0 +1,15 @@
+
+
+変更内容を GitHub に反映
+git status          # 変更確認
+git add .
+git commit -m "Update lab website contents"
+git push
+
+
+---- この方法は、「失敗原因：eventmachine 1.2.7 の macOS SDK 非互換」
+のためにうまくいかない-----> ローカルでのビルドは諦める
+任意）ローカルで表示確認したい場合
+bundle install
+bundle exec jekyll serve
+
