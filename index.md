@@ -51,4 +51,5 @@
             Contact
           </a>
           <!-- 日本語トップへのリンク -->
-          <a class="page-link" href=
+          <a class="page-link" href="{{ "/" relative_url }}">
+        {% endif %}
