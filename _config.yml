@@ -30,7 +30,7 @@ plugins:
   - jekyll-sitemap
 
 lab:
-  ja_name: "システム工学研究室（高橋グループ）"
+  ja_name: "システム工学研究室（高橋G）"
   en_name: "Takahashi Group, System Engineering Laboratory"
   org_line_ja: "豊橋技術科学大学 機械系"
   org_line_en: "Department of Mechanical Engineering, Toyohashi University of Technology"
