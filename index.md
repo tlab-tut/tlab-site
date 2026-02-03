@@ -1,10 +1,12 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
 
+    <!--
     <!-- サイトタイトル（minima テーマ互換） -->
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {{ site.title | escape }}
     </a>
+    -->
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
