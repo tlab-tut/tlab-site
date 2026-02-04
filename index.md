@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: page
 title: システム工学研究室（高橋G）
-show_title: false
+show_title: true
 ---
 
 <div class="slideshow-container">
@@ -9,6 +9,10 @@ show_title: false
   <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
   <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
   <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
+  <div class="slide-title">
+      システム工学研究室（高橋G）<br>
+      <span>豊橋技術科学大学 機械工学系</span>
+    </div>
 </div>
 
 <script>
