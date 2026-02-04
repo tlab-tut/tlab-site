@@ -6,7 +6,7 @@ show_title: false
 
 <div class="slideshow-container">
   <div class="slide-wrapper active">
-    <img src="{{ "/assets/images/top/slide1.png" | relative_url }}" alt="T-lab">
+    <img src="{{ "/assets/images/top/slide1.png" | relative_url }}">
     <div class="overlay">
       <div class="overlay-inner">
         システム工学研究室（高橋G）<br>
@@ -16,11 +16,11 @@ show_title: false
   </div>
 
   <div class="slide-wrapper">
-    <img src="{{ "/assets/images/top/slide2.png" | relative_url }}" alt="">
+    <img src="{{ "/assets/images/top/slide2.png" | relative_url }}">
   </div>
 
   <div class="slide-wrapper">
-    <img src="{{ "/assets/images/top/slide3.png" | relative_url }}" alt="">
+    <img src="{{ "/assets/images/top/slide3.png" | relative_url }}">
   </div>
 </div>
 
