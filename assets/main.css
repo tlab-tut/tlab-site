@@ -45,3 +45,32 @@
   font-size: 1.1rem;
   font-weight: 400;
 }
+
+/* ===== ヘッダーを最前面に固定 ===== */
+.site-header {
+  position: relative;
+  z-index: 1000;   /* スライドより必ず上 */
+}
+
+/* ===== トップスライドの重なり制御 ===== */
+.slideshow-container {
+  position: relative;
+  z-index: 1;      /* ヘッダーより下 */
+  margin-top: 1rem;
+}
+
+/* 既存定義の補強（再掲・安全） */
+.slide-wrapper {
+  position: relative;
+  display: none;
+}
+
+.slide-wrapper.active {
+  display: block;
+}
+
+/* オーバーレイはスライド内だけで完結させる */
+.overlay {
+  position: absolute;
+  inset: 0;
+}
