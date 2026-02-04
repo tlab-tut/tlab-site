@@ -34,7 +34,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) { slideIndex = 1; }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 4000); // 4秒ごとに切替
+  setTimeout(showSlides, 6000); // 6秒ごとに切替
 }
 
 showSlides();
@@ -48,3 +48,13 @@ showSlides();
 <p>
 　本研究室では、人の行動や作業を代替するために必要な情報をリーズナブルに取得できる<strong> Visual Geometric Matching（VGM）位置推定法</strong>を研究開発してきました。現在はその成果を基盤として、産業分野および人の生活を支援するシステムへの応用を進めています。
 </p>
+
+<h2>お知らせ</h2>
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+    </li>
+  {% endfor %}
+</ul>
