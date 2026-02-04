@@ -1,8 +1,36 @@
 ---
-layout: home
+layout: page
 title: システム工学研究室（高橋G）
-show_title: false
+show_title: true
 ---
+
+<div class="slideshow-container">
+  <img class="slide" src="{{ "/assets/images/top/slide1.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
+  <div class="slide-title">
+      システム工学研究室（高橋G）<br>
+      <span>豊橋技術科学大学 機械工学系</span>
+    </div>
+</div>
+
+<script>
+let slideIndex = 0;
+const slides = document.getElementsByClassName("slide");
+
+function showSlides() {
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 4000); // 4秒ごとに切替
+}
+
+showSlides();
+</script>
 
 <p>
 　自律システムに関する研究を行っています。自律システムとは、周囲の環境に適応しつつ
