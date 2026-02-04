@@ -9,9 +9,6 @@
   width: 100%;
   display: none;
   border-radius: 6px;
-}
-
-.slide {
   animation: fade 1.2s;
 }
 
