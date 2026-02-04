@@ -5,40 +5,37 @@ show_title: false
 ---
 
 <div class="slideshow-container">
-  <div class="slide-wrapper">
-    <img class="slide" src="{{ "/assets/images/top/slide1.png" | relative_url }}">
-    <div class="slide-title">
-      システム工学研究室（高橋G）<br>
-      <span>豊橋技術科学大学 機械工学系</span>
+  <div class="slide-wrapper active">
+    <img src="{{ "/assets/images/top/slide1.jpg" | relative_url }}" alt="T-lab">
+    <div class="overlay">
+      <div class="overlay-inner">
+        システム工学研究室（高橋G）<br>
+        <span>豊橋技術科学大学 機械工学系</span>
+      </div>
     </div>
   </div>
+
   <div class="slide-wrapper">
-    <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
+    <img src="{{ "/assets/images/top/slide2.jpg" | relative_url }}" alt="">
   </div>
+
   <div class="slide-wrapper">
-    <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
-  </div>
-  <div class="slide-wrapper">
-    <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
+    <img src="{{ "/assets/images/top/slide3.jpg" | relative_url }}" alt="">
   </div>
 </div>
 
 <script>
-let slideIndex = 0;
-const slides = document.getElementsByClassName("slide");
+let idx = 0;
+const slides = document.querySelectorAll(".slide-wrapper");
 
-function showSlides() {
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1; }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 6000); // 6秒ごとに切替
+function rotate() {
+  slides.forEach(s => s.classList.remove("active"));
+  idx = (idx + 1) % slides.length;
+  slides[idx].classList.add("active");
 }
-
-showSlides();
+setInterval(rotate, 4000);
 </script>
+
 
 <p>
 　自律システムに関する研究を行っています。自律システムとは、周囲の環境に適応しつつ
