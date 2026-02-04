@@ -5,9 +5,9 @@ show_title: false
 ---
 
 <div class="slideshow-container">
-  <img class="slide" src="{{ "/assets/images/top/slide1.jpg" | relative_url }}">
-  <img class="slide" src="{{ "/assets/images/top/slide2.jpg" | relative_url }}">
-  <img class="slide" src="{{ "/assets/images/top/slide3.jpg" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide1.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
 </div>
 
 <script>
