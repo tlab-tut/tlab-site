@@ -7,15 +7,20 @@ show_title: false
 <div class="slideshow-container">
   <div class="slide-wrapper">
     <img class="slide" src="{{ "/assets/images/top/slide1.png" | relative_url }}">
-      <div class="slide-title">
+    <div class="slide-title">
       システム工学研究室（高橋G）<br>
       <span>豊橋技術科学大学 機械工学系</span>
     </div>
   </div>
-  
-  <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
-  <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
-  <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
+  <div class="slide-wrapper">
+    <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
+  </div>
+  <div class="slide-wrapper">
+    <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
+  </div>
+  <div class="slide-wrapper">
+    <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
+  </div>
 </div>
 
 <script>
