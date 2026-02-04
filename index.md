@@ -4,6 +4,29 @@ title: システム工学研究室（高橋G）
 show_title: false
 ---
 
+<div class="slideshow-container">
+  <img class="slide" src="{{ "/assets/images/top/slide1.jpg" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide2.jpg" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide3.jpg" | relative_url }}">
+</div>
+
+<script>
+let slideIndex = 0;
+const slides = document.getElementsByClassName("slide");
+
+function showSlides() {
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 4000); // 4秒ごとに切替
+}
+
+showSlides();
+</script>
+
 <p>
 　自律システムに関する研究を行っています。自律システムとは、周囲の環境に適応しつつ
 <strong>自らの判断で行動する主体</strong>の総称であり、狭義には人による遠隔操縦なしに自律的に動作するロボットを指します。このようなロボットでは、環境情報や<strong>自己と環境の関係を表す情報（自己位置情報）</strong>の解像度・精緻さ・信頼性が、実現可能な行動や機能の範囲を規定します。
