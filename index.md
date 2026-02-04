@@ -8,6 +8,7 @@ show_title: false
   <img class="slide" src="{{ "/assets/images/top/slide1.png" | relative_url }}">
   <img class="slide" src="{{ "/assets/images/top/slide2.png" | relative_url }}">
   <img class="slide" src="{{ "/assets/images/top/slide3.png" | relative_url }}">
+  <img class="slide" src="{{ "/assets/images/top/slide4.png" | relative_url }}">
 </div>
 
 <script>
