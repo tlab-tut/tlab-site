@@ -5,36 +5,76 @@ show_title: false
 ---
 
 <div class="slideshow-container">
-  <div class="slide-wrapper active">
-    <img src="{{ "/assets/images/top/slide1.png" | relative_url }}">
-    <div class="overlay">
-      <div class="overlay-inner">
-        システム工学研究室（高橋G）<br>
-        <span>豊橋技術科学大学 機械工学系</span>
+  <div class="slides-track">
+    <div class="slide">
+      <img src="{{ '/assets/images/top/slide1.png' | relative_url }}">
+      <div class="overlay">
+        <div class="overlay-inner">
+          システム工学研究室（高橋G）<br>
+          <span>豊橋技術科学大学 機械工学系</span>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="slide-wrapper">
-    <img src="{{ "/assets/images/top/slide2.png" | relative_url }}">
-  </div>
+    <div class="slide">
+      <img src="{{ '/assets/images/top/slide2.png' | relative_url }}">
+    </div>
 
-  <div class="slide-wrapper">
-    <img src="{{ "/assets/images/top/slide3.png" | relative_url }}">
+    <div class="slide">
+      <img src="{{ '/assets/images/top/slide3.png' | relative_url }}">
+    </div>
+
+    <!-- ★ 先頭を複製（クローン） -->
+    <div class="slide is-clone">
+      <img src="{{ '/assets/images/top/slide1.png' | relative_url }}">
+    </div>
   </div>
 </div>
 
 <script>
-let idx = 0;
-const slides = document.querySelectorAll(".slide-wrapper");
+document.addEventListener("DOMContentLoaded", () => {
+  const track  = document.querySelector(".slides-track");
+  const slides = document.querySelectorAll(".slide");
+  const slideCount = slides.length;
 
-function rotate() {
-  slides.forEach(s => s.classList.remove("active"));
-  idx = (idx + 1) % slides.length;
-  slides[idx].classList.add("active");
-}
-setInterval(rotate, 4000);
+  let index = 0;
+  const duration = 800;   // アニメーション時間(ms)
+  const interval = 4500;  // 切替間隔(ms)
+
+  // 初期状態
+  slides[index].classList.add("is-active");
+
+  setInterval(() => {
+    // 現在スライドを非アクティブに
+    slides[index].classList.remove("is-active");
+
+    index++;
+
+    // 横移動
+    track.style.transition = `transform ${duration}ms ease-in-out`;
+    track.style.transform  = `translateX(-${index * 100}%)`;
+
+    // 通常スライドなら active を付与
+    if (index < slideCount - 1) {
+      slides[index].classList.add("is-active");
+    }
+
+    // クローンに到達したら先頭へ巻き戻す
+    if (index === slideCount - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        track.style.transform  = "translateX(0)";
+        index = 0;
+
+        slides.forEach(s => s.classList.remove("is-active"));
+        slides[0].classList.add("is-active");
+      }, duration);
+    }
+
+  }, interval);
+});
 </script>
+
 
 
 <p>
