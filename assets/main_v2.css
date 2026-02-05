@@ -33,7 +33,7 @@
 
 .slideshow-container {
   max-width: 1400px;
-  margin: 0 auto 2rem;
+  margin: 1.5rem auto;
   overflow: hidden; 
 }
 
@@ -46,6 +46,18 @@
 }
 */
 
+.slideshow-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.25) 100%
+  );
+}
+
 .slides-track {
   display: flex;
   transition: transform 0.8s ease-in-out;
@@ -54,13 +66,15 @@
 .slide {
   min-width: 100%;
   position: relative;
-  opacity: 0;
-  transition: opacity 0.8s ease-in-out;
+  opacity: 0.4;
+  transform: scale(0.985);     /* ← わずかに小さく */
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 /* 表示中スライドを強調 */
-.slides-track .slide:first-child {
+.slides-track .slide:nth-child(1) {
   opacity: 1;
+  transform: scale(1);
 }
 
 .slide img {
