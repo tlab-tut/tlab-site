@@ -32,7 +32,8 @@
 /* ===== 横スライド＋フェード ===== */
 
 .slideshow-container {
-  max-width: 1400px;
+  max-width: 1600px;
+  height: 600px;
   margin: 1.5rem auto;
   overflow: hidden;
   position: relative;
@@ -66,6 +67,7 @@
 
 .slide {
   min-width: 100%;
+  height: 100%;
   position: relative;
   opacity: 0.4;
   transform: scale(0.985);     /* ← わずかに小さく */
@@ -88,6 +90,8 @@
 
 .slide img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
   border-radius: 6px;
 }
@@ -114,4 +118,16 @@
 .slide .overlay-inner span {
   font-size: 1.1rem;
   font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .slideshow-container {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slideshow-container {
+    height: 260px;
+  }
 }
