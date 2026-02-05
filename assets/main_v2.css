@@ -30,11 +30,18 @@
 }
 
 /* ===== 横スライド＋フェード ===== */
-
+/*
 .slideshow-container {
   max-width: 1100px;
   margin: 1.5rem auto;
-  overflow: hidden;           /* 横にはみ出す分を隠す */
+  overflow: hidden; 
+}
+*/
+/* 画面幅いっぱいにしたい場合 */
+.slideshow-container {
+  max-width: none;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }
 
 .slides-track {
@@ -45,13 +52,15 @@
 .slide {
   min-width: 100%;
   position: relative;
-  opacity: 0.6;
-  transition: opacity 0.8s ease-in-out;
+  opacity: 0.4;
+  transform: scale(0.985);     /* ← わずかに小さく */
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 /* 表示中スライドを強調 */
-.slides-track .slide:nth-child(n) {
+.slides-track .slide:nth-child(1) {
   opacity: 1;
+  transform: scale(1);
 }
 
 .slide img {

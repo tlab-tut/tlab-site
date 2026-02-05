@@ -23,20 +23,39 @@ show_title: false
     <div class="slide">
       <img src="{{ '/assets/images/top/slide3.png' | relative_url }}">
     </div>
+
+    <!-- ★ 先頭を複製（クローン） -->
+    <div class="slide is-clone">
+      <img src="{{ '/assets/images/top/slide1.png' | relative_url }}">
+    </div>
   </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  let index = 0;
   const track = document.querySelector(".slides-track");
   const slides = document.querySelectorAll(".slide");
   const total = slides.length;
+  let index = 0;
+  const duration = 800;   // アニメーション(ms)
+  const interval = 4500;  // 切替間隔(ms)
 
-  setInterval(() => {
-    index = (index + 1) % total;
+  function move() {
+    index++;
+    track.style.transition = `transform ${duration}ms ease-in-out`;
     track.style.transform = `translateX(-${index * 100}%)`;
-  }, 4500);
+
+    // クローン到達後、瞬間的に先頭へ戻す
+    if (index === total - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        track.style.transform = "translateX(0)";
+        index = 0;
+      }, duration);
+    }
+  }
+
+  setInterval(move, interval);
 });
 </script>
 
