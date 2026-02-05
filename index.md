@@ -33,23 +33,48 @@ show_title: false
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const track = document.querySelector(".slides-track");
+  const track  = document.querySelector(".slides-track");
   const slides = document.querySelectorAll(".slide");
-  const total = slides.length;
+  const slideCount = slides.length;
 
   let index = 0;
+  const duration = 800;   // アニメーション時間(ms)
+  const interval = 4500;  // 切替間隔(ms)
+
+  // 初期状態
   slides[index].classList.add("is-active");
 
   setInterval(() => {
+    // 現在スライドを非アクティブに
     slides[index].classList.remove("is-active");
 
-    index = (index + 1) % total;
+    index++;
 
-    track.style.transform = `translateX(-${index * 100}%)`;
-    slides[index].classList.add("is-active");
-  }, 4500);
+    // 横移動
+    track.style.transition = `transform ${duration}ms ease-in-out`;
+    track.style.transform  = `translateX(-${index * 100}%)`;
+
+    // 通常スライドなら active を付与
+    if (index < slideCount - 1) {
+      slides[index].classList.add("is-active");
+    }
+
+    // クローンに到達したら先頭へ巻き戻す
+    if (index === slideCount - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        track.style.transform  = "translateX(0)";
+        index = 0;
+
+        slides.forEach(s => s.classList.remove("is-active"));
+        slides[0].classList.add("is-active");
+      }, duration);
+    }
+
+  }, interval);
 });
 </script>
+
 
 
 <p>
