@@ -54,15 +54,13 @@
 .slide {
   min-width: 100%;
   position: relative;
-  opacity: 0.4;
-  transform: scale(0.985);     /* ← わずかに小さく */
-  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
 }
 
 /* 表示中スライドを強調 */
-.slides-track .slide:nth-child(1) {
+.slides-track .slide:first-child {
   opacity: 1;
-  transform: scale(1);
 }
 
 .slide img {
