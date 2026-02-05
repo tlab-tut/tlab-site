@@ -36,26 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const track = document.querySelector(".slides-track");
   const slides = document.querySelectorAll(".slide");
   const total = slides.length;
+
   let index = 0;
-  const duration = 800;   // アニメーション(ms)
-  const interval = 4500;  // 切替間隔(ms)
+  slides[index].classList.add("is-active");
 
-  function move() {
-    index++;
-    track.style.transition = `transform ${duration}ms ease-in-out`;
+  setInterval(() => {
+    slides[index].classList.remove("is-active");
+
+    index = (index + 1) % total;
+
     track.style.transform = `translateX(-${index * 100}%)`;
-
-    // クローン到達後、瞬間的に先頭へ戻す
-    if (index === total - 1) {
-      setTimeout(() => {
-        track.style.transition = "none";
-        track.style.transform = "translateX(0)";
-        index = 0;
-      }, duration);
-    }
-  }
-
-  setInterval(move, interval);
+    slides[index].classList.add("is-active");
+  }, 4500);
 });
 </script>
 

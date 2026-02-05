@@ -71,11 +71,19 @@
   transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
+/* 表示中スライドのみ可視 */
+.slide.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
 /* 表示中スライドを強調 */
+/*
 .slides-track .slide:nth-child(1) {
   opacity: 1;
   transform: scale(1);
 }
+*/
 
 .slide img {
   width: 100%;
