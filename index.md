@@ -9,9 +9,13 @@ show_title: false
     <div class="slide">
       <img src="{{ '/assets/images/top/slide1.png' | relative_url }}">
       <div class="overlay">
-        <div class="overlay-inner">
-          システム工学研究室（高橋G）<br>
-          <span>豊橋技術科学大学 機械工学系</span>
+        <div class="overlay-inner"
+            data-ja-title="システム工学研究室（高橋Gr）"
+            data-ja-sub="豊橋技術科学大学 機械工学系"
+            data-en-title="Systems Engineering Laboratory (T-lab)"
+            data-en-sub="Department of Mechanical Engineering, TUT">
+          <span class="title"></span><br>
+          <span class="sub"></span>
         </div>
       </div>
     </div>
@@ -33,6 +37,11 @@ show_title: false
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  
+  /* =========================
+     ① スライド（横移動＋無限ループ）
+     ========================= */
+  
   const track  = document.querySelector(".slides-track");
   const slides = document.querySelectorAll(".slide");
   const slideCount = slides.length;
@@ -72,6 +81,27 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
   }, interval);
+
+　/* =========================
+     ② 日本語 / 英語オーバーレイ自動切替
+     ========================= */
+  const isEn =
+    window.location.pathname.startsWith("/en/") ||
+    window.location.pathname.includes("/en/");
+
+  const overlay = document.querySelector(".overlay-inner");
+  if (!overlay) return;
+
+  const titleEl = overlay.querySelector(".title");
+  const subEl   = overlay.querySelector(".sub");
+
+  if (isEn) {
+    titleEl.textContent = overlay.dataset.enTitle;
+    subEl.textContent   = overlay.dataset.enSub;
+  } else {
+    titleEl.textContent = overlay.dataset.jaTitle;
+    subEl.textContent   = overlay.dataset.jaSub;
+  }
 });
 </script>
 
