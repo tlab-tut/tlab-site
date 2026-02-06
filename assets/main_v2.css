@@ -36,6 +36,13 @@
   position: relative;
 }
 
+/* スライドを本文幅制約から外す */
+.slideshow-container {
+  max-width: none;     /* 制限解除 */
+  width: 92vw;         /* 画面幅の 92% を使用 */
+  margin: 1.5rem auto; /* 常に中央 */
+}
+
 /* 画面幅いっぱいにしたい場合 */
 /*
 .slideshow-container {
