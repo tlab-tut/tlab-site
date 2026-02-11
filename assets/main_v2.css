@@ -144,6 +144,26 @@
   .slideshow-container {
     height: 260px;
   }
+
+  /* ===== モバイル最適化 ===== */
+  .slideshow-container {
+    height: 56vw;   /* 16:9 比率を維持 */
+    margin: 1rem auto;
+  }
+
+}
+
+/* ===== ヘッダーを常に最前面に ===== */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+/* スライドはそれより下 */
+.slideshow-container {
+  position: relative;
+  z-index: 1;
 }
 
 
