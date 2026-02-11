@@ -211,16 +211,6 @@
   margin: 0 1rem 1rem;
 }
 
-.research-card .tags span {
-  display: inline-block;
-  background: #f0f4f8;
-  color: #333;
-  font-size: 0.75rem;
-  padding: 2px 8px;
-  margin: 2px 4px 0 0;
-  border-radius: 12px;
-}
-
 /* =========================
    Research Tag Design
    ========================= */
