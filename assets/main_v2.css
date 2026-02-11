@@ -1,7 +1,5 @@
 /* ===== トップページ：スライド（安全版） ===== */
 
-
-
 .slideshow-container img {
   width: 100%;
   display: block;
@@ -42,6 +40,17 @@
   width: 92vw;         /* 画面幅の 92% を使用 */
   margin: 1.5rem auto; /* 常に中央 */
 }
+
+/* ===== トップスライド：横幅の最終調整 ===== */
+
+.slideshow-container {
+  width: min(96vw, 1200px);  /* ★ 画面追従しつつ上限を設定 */
+  height: 480px;
+  margin: 1.5rem auto;      /* ★ 常に中央寄せ */
+  overflow: hidden;
+  position: relative;
+}
+
 
 /* 画面幅いっぱいにしたい場合 */
 /*
