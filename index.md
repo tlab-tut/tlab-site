@@ -25,7 +25,7 @@ show_title: false
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/top/slide3.png' | relative_url }}">
+      <img src="{{ '/assets/images/top/slide5.png' | relative_url }}">
     </div>
 
     <!-- ★ 先頭を複製（クローン） -->
