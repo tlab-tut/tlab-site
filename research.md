@@ -4,6 +4,19 @@ title: 研究テーマ
 permalink: /research/
 ---
 
+<div class="tags">
+  <span class="tag tech">AI</span>
+  <span class="tag tech">VGM</span>
+  <span class="tag tech">AMR</span>
+  <span class="tag tech">Digital Twin</span>
+  <span class="tag tech">Optimization</span>
+  <span class="tag industry">Factory Automation</span>
+  <span class="tag industry">AgriTech</span>
+  <span class="tag life">Survice Robotics</span>
+  <span class="tag life">Smart Living</span>
+  <span class="tag life">Human Support</span>
+</div>
+
 <div class="research-grid">
 
   <div class="research-card">
