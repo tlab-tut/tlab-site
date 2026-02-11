@@ -43,8 +43,8 @@
 
 /* ===== トップスライド：横幅の最終調整 ===== */
 .slideshow-container {
-  width: min(92vw, 1200px);  /* ★ 画面追従しつつ上限を設定 */
-  height: 480px;
+  width: min(96vw, 800px);  /* ★ 画面追従しつつ上限を設定 */
+  height: 450px;
   margin: 1.5rem auto;      /* ★ 常に中央寄せ */
   overflow: hidden;
   position: relative;
