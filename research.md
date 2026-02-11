@@ -7,7 +7,7 @@ permalink: /research/
 <div class="research-grid">
 
   <div class="research-card">
-    <img src="{{ '/assets/images/research/vgm.png' | relative_url }}" alt="VGM localization">
+    <img src="{{ '/assets/images/research/vmg_flow2025.png' | relative_url }}" alt="VGM localization">
     <h3>Visual Geometric Matching に基づく自己位置推定</h3>
     <p>
       カメラ画像と幾何モデルを直接対応付ける Visual Geometric Matching（VGM）により、
