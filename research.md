@@ -93,6 +93,16 @@ permalink: /research/
     </div>
   </div>
 
+  <div class="research-card">
+    <img src="{{ '/assets/images/research/under_construction.png' | relative_url }}" alt="Digital twin">
+    <h3>自律システム</h3>
+    <p>
+      自律システムとは、周囲の環境に適応しつつ自らの判断で行動する主体の総称で、人が操縦することなく自律的に動作するロボットはその典型例です。人工自律システムでは、環境情報や自己と環境の関係を表す情報の解像度・精緻さ・信頼性が、実現可能な行動や機能の範囲を規定します。本研究室では、人工システムにおける自律性を情報と行為の関係から捉え直し、情報の質が行為の可能性空間をいかに規定するかを探究しています。
+    </p>
+    <div class="tags">
+    </div>
+  </div>
+
   <!-- 必要に応じて同じ形式で 5〜10 件まで追加 -->
 
 </div>
