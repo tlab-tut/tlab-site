@@ -7,6 +7,17 @@ permalink: /research/
 <div class="research-grid">
 
   <div class="research-card">
+    <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
+    <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
+    <p>
+      設備配置の変更が頻繁な工場にも通用するVGM位置推定により搬送ロボットの自動化を目指します。
+    </p>
+    <div class="tags">
+      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+    </div>
+  </div>
+
+  <div class="research-card">
     <img src="{{ '/assets/images/research/vmg_flow2025.png' | relative_url }}" alt="VGM localization">
     <h3>Visual Geometric Matching に基づく自己位置推定</h3>
     <p>
@@ -18,6 +29,17 @@ permalink: /research/
   </div>
 
   <div class="research-card">
+    <img src="{{ '/assets/images/research/AMRinTCL.png' | relative_url }}" alt="Digital twin">
+    <h3>図書館における誤配架検出システム</h3>
+    <p>
+      図書ラベルを読み取り、誤配架されてしまった図書がないか探します。検出結果はマップに反映され、司書はそれを見ながら効率的に配架作業をすすめます。
+    </p>
+    <div class="tags">
+      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+    </div>
+  </div>
+
+  <div class="research-card">
     <img src="{{ '/assets/images/research/dirt_monitoring.png' | relative_url }}" alt="Cleaning robot">
     <h3>施設カストーディアル（清掃・維持）のための清潔度モニタリングシステム</h3>
     <p>
@@ -25,28 +47,6 @@ permalink: /research/
     </p>
     <div class="tags">
       <span>Autonomy</span><span>Planning</span><span>Service Robot</span>
-    </div>
-  </div>
-
-  <div class="research-card">
-    <img src="{{ '/assets/images/research/AMRinTCL.png' | relative_url }}" alt="Digital twin">
-    <h3>図書館における誤配架検出システム</h3>
-    <p>
-      図書ラベルを読み取り、誤配架されてしまった図書がないか探します。検出結果はマップに反映され、司書はそれを見ながら配架作業を効率化することができます。
-    </p>
-    <div class="tags">
-      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
-    </div>
-  </div>
-
-  <div class="research-card">
-    <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
-    <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
-    <p>
-      設備配置の変更が頻繁な工場にも通用するVGM位置推定により搬送ロボットの自動化を目指します。
-    </p>
-    <div class="tags">
-      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
     </div>
   </div>
 
