@@ -25,6 +25,7 @@ permalink: /research/
       VGM を改良し性能アップ、適用範囲の拡大を目指します。Ceiling-VGM、Panorama-VGM などの派生を産みました。現在は、NDT融合、最適化の取り込みに挑戦しています。
     </p>
     <div class="tags">
+      <span class="tag tech">AI</span>
       <span class="tag tech">VGM</span>
       <span class="tag tech">Optimization</span>
     </div>
