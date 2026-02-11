@@ -30,6 +30,17 @@ permalink: /research/
 
   <div class="research-card">
     <img src="{{ '/assets/images/research/digital_twin.png' | relative_url }}" alt="Digital twin">
+    <h3>図書館における誤配架検出システム</h3>
+    <p>
+      図書ラベルを読み取り、誤配架されてしまった図書がないか探します。見つけたときは位置を記録しマップに反映させます。司書はそのマップを見て、配架作業を効率化することができます。
+    </p>
+    <div class="tags">
+      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+    </div>
+  </div>
+
+  <div class="research-card">
+    <img src="{{ '/assets/images/research/digital_twin.png' | relative_url }}" alt="Digital twin">
     <h3>生活空間デジタルツインの構築</h3>
     <p>
       実環境で取得したセンサ情報を基に、建物内部の状態を仮想空間に再構成し、
