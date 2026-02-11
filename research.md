@@ -88,7 +88,6 @@ permalink: /research/
       MDPD解法アルゴリズムとの統合により、物流倉庫へ即時適用可能な、拡張性と安定性を兼ね備えた自律搬送システムの実現を目指しています。
     </p>
     <div class="tags">
-      <span class="tag tech">VGM</span>
       <span class="tag tech">AMR</span>
       <span class="tag industry">Factory Automation</span>
     </div>
