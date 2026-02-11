@@ -4,16 +4,32 @@ title: 研究テーマ
 permalink: /research/
 ---
 
+<div class="tags">
+  <span class="tag tech">AI</span>
+  <span class="tag tech">VGM</span>
+  <span class="tag tech">AMR</span>
+  <span class="tag tech">Localization</span>
+  <span class="tag tech">Digital Twin</span>
+  <span class="tag tech">Optimization</span>
+  <span class="tag industry">Industrial Application</span>
+  <span class="tag industry">Factory Automation</span>
+  <span class="tag industry">Infrastructure Monitoring</span>
+  <span class="tag industry">AgriTech</span>
+  <span class="tag life">Survice Robotics</span>
+  <span class="tag life">Smart Living</span>
+  <span class="tag life">Human Support</span>
+</div>
+
 <div class="research-grid">
 
   <div class="research-card">
     <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
     <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
     <p>
-      設備配置の変更が頻繁な工場にも通用するVGM位置推定により搬送ロボットの自動化を目指します。
+      設備配置の変更が頻繁な工場にも通よする新しい位置推定手法により搬送ロボットの自動化を目指します。
     </p>
     <div class="tags">
-      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+      <span>Localization</span><span>AMR</span><span>Factory Automation</span>
     </div>
   </div>
 
@@ -24,7 +40,7 @@ permalink: /research/
       カメラ画像と幾何モデルを対応付ける Visual Geometric Matching（VGM）により、低コストかつ高精度な自己位置推定を実現します。
     </p>
     <div class="tags">
-      <span>Localization</span><span>VGM</span><span>AMR</span>
+      <span>VGM</span>
     </div>
   </div>
 
@@ -32,10 +48,10 @@ permalink: /research/
     <img src="{{ '/assets/images/research/AMRinTCL.png' | relative_url }}" alt="Digital twin">
     <h3>図書館における誤配架検出システム</h3>
     <p>
-      図書ラベルを読み取り、誤配架されてしまった図書がないか探します。検出結果はマップに反映され、司書はそれを見ながら効率的に配架作業をすすめます。
+      図書ラベルを読み取り、誤配架されてしまった図書がないか探します。検出結果はマップに反映され、司書さんはそれを見ながら効率的に配架作業をすすめることができます。
     </p>
     <div class="tags">
-      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+      <span>AI</spn><span>Digital Twin</spn><span>Survice Robotics</span>
     </div>
   </div>
 
@@ -46,7 +62,7 @@ permalink: /research/
       建物内の汚れをビジョンセンサを使って検出し、発見場所をマップに記録します。汚れの分布や汚れの発達過程を分析し、よりきめのこまかい清掃計画をたてることができます。
     </p>
     <div class="tags">
-      <span>Autonomy</span><span>Planning</span><span>Service Robot</span>
+      <span>AI</span><span>Localization</span><span>Service Robotics</span>
     </div>
   </div>
 
@@ -57,7 +73,7 @@ permalink: /research/
       人工建築物が見える農場や施設園芸において、建物やハウスの３Dモデルを参照マップとするVGM位置推定を導入し、作業補助ロボットが自律的に走行、動作することを目指します
     </p>
     <div class="tags">
-      <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
+      <span>AMR</span><span>AgriTech</span>
     </div>
   </div>
 
