@@ -40,11 +40,10 @@ permalink: /research/
   </div>
 
   <div class="research-card">
-    <img src="{{ '/assets/images/research/digital_twin.png' | relative_url }}" alt="Digital twin">
-    <h3>生活空間デジタルツインの構築</h3>
+    <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
+    <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
     <p>
-      実環境で取得したセンサ情報を基に、建物内部の状態を仮想空間に再構成し、
-      管理・支援への応用を行います。
+      設備配置の変更が頻繁な工場にも通用するVGM位置推定により搬送ロボットの自動化を目指します。
     </p>
     <div class="tags">
       <span>Digital Twin</span><span>Mapping</span><span>Human Support</span>
