@@ -4,19 +4,6 @@ title: 研究テーマ
 permalink: /research/
 ---
 
-<div class="tags">
-  <span class="tag tech">AI</span>
-  <span class="tag tech">VGM</span>
-  <span class="tag tech">AMR</span>
-  <span class="tag tech">Digital Twin</span>
-  <span class="tag tech">Optimization</span>
-  <span class="tag industry">Factory Automation</span>
-  <span class="tag industry">AgriTech</span>
-  <span class="tag life">Survice Robotics</span>
-  <span class="tag life">Smart Living</span>
-  <span class="tag life">Human Support</span>
-</div>
-
 <div class="research-grid">
 
   <div class="research-card">
@@ -82,7 +69,7 @@ permalink: /research/
   </div>
 
   <div class="research-card">
-    <img src="{{ '/assets/images/research/Field_of_AgliTech1.png' | relative_url }}" alt="Digital twin">
+    <img src="{{ '/assets/images/research/scans.png' | relative_url }}" alt="Digital twin">
     <h3>参照マップ作成（3Dモデル構築）の効率化</h3>
     <p>
       VGM位置推定は、参照マップを用いるために高精度ですが、一方で3Dモデル構築にかかるコストが導入障壁の一つとなっています。3Dモデル作成の効率化や、3Dモデルが不要な原理の研究開発に取り組みます。
