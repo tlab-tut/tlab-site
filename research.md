@@ -11,9 +11,7 @@ permalink: /research/
   <span class="tag tech">Localization</span>
   <span class="tag tech">Digital Twin</span>
   <span class="tag tech">Optimization</span>
-  <span class="tag industry">Industrial Application</span>
   <span class="tag industry">Factory Automation</span>
-  <span class="tag industry">Infrastructure Monitoring</span>
   <span class="tag industry">AgriTech</span>
   <span class="tag life">Survice Robotics</span>
   <span class="tag life">Smart Living</span>
@@ -51,7 +49,7 @@ permalink: /research/
       図書ラベルを読み取り、誤配架されてしまった図書がないか探します。検出結果はマップに反映され、司書さんはそれを見ながら効率的に配架作業をすすめることができます。
     </p>
     <div class="tags">
-      <span>AI</spn><span>Digital Twin</spn><span>Survice Robotics</span>
+      <span>AI</span><span>Digital Twin</span><span>Survice Robotics</span>
     </div>
   </div>
 
