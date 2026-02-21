@@ -17,7 +17,6 @@ nav_order: 2
 
 ![Background]({{ '/assets/images/research/SCANinHamanaE.png' | relative_url }})
 
-
 工場は製品や工程に応じてレイアウト変更（再ゾーニング）を行う。本研究では、レイアウト変化に耐性を持つAMRの自律移動を実現する。
 
 ---
