@@ -28,7 +28,7 @@ permalink: /research/
   {% endif %}
 
   <!-- vgm_core -->
-  {% assign ready_vgm = true %}
+  {% assign ready_vgm = false %}
   {% if ready_vgm %}
   <a href="{{ '/research/vgm_core/' | relative_url }}" class="research-card-link">
   {% endif %}
@@ -50,7 +50,7 @@ permalink: /research/
   {% endif %}
 
   <!-- library -->
-  {% assign ready_library = true %}
+  {% assign ready_library = false %}
   {% if ready_library %}
   <a href="{{ '/research/library/' | relative_url }}" class="research-card-link">
   {% endif %}
@@ -94,7 +94,7 @@ permalink: /research/
   {% endif %}
 
   <!-- agritech_amr -->
-  {% assign ready_agri = true %}
+  {% assign ready_agri = false %}
   {% if ready_agri %}
   <a href="{{ '/research/agritech_amr/' | relative_url }}" class="research-card-link">
   {% endif %}
@@ -115,7 +115,7 @@ permalink: /research/
   {% endif %}
 
   <!-- map_generation -->
-  {% assign ready_map = true %}
+  {% assign ready_map = false %}
   {% if ready_map %}
   <a href="{{ '/research/map_generation/' | relative_url }}" class="research-card-link">
   {% endif %}
@@ -136,7 +136,7 @@ permalink: /research/
   {% endif %}
 
   <!-- multi_amr -->
-  {% assign ready_multi = true %}
+  {% assign ready_multi = false %}
   {% if ready_multi %}
   <a href="{{ '/research/multi_amr/' | relative_url }}" class="research-card-link">
   {% endif %}

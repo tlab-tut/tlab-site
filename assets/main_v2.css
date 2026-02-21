@@ -235,6 +235,17 @@
   opacity: 1.0;
 }
 
+.research-card.disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.research-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .research-card .tags {
   margin: 0 1rem 1rem;
 }
