@@ -20,7 +20,7 @@ permalink: /research/
 
   <div class="research-card">
     <img src="{{ '/assets/images/research/vmg_flow2025.png' | relative_url }}" alt="VGM localization">
-    <h3>Visual Geometric Matching の高度化</h3>
+    <h3>VGM の高度化</h3>
     <p>
       VGM を改良し性能アップ、適用範囲の拡大を目指します。Ceiling-VGM、Panorama-VGM などの派生を産みました。現在は、NDT融合、最適化の取り込みに挑戦しています。
     </p>
@@ -71,7 +71,7 @@ permalink: /research/
 
   <div class="research-card">
     <img src="{{ '/assets/images/research/scans.png' | relative_url }}" alt="Digital twin">
-    <h3>参照マップ作成（3Dモデル構築）の効率化</h3>
+    <h3>参照マップ（3Dモデル）作成の効率化</h3>
     <p>
       VGM位置推定は、参照マップを用いるために高精度ですが、一方で3Dモデル構築にかかるコストが導入障壁の一つとなっています。3Dモデル作成の効率化や、3Dモデルが不要な原理の研究開発に取り組みます。
     </p>
