@@ -1,0 +1,293 @@
+/* ===== トップページ：スライド（安全版） ===== */
+
+.slideshow-container img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* オーバーレイ */
+.slideshow-container .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 8%;
+  pointer-events: none;
+}
+
+.slideshow-container .overlay-inner {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 0 2px 8px rgba(0,0,0,.6);
+}
+
+/* ===== 横スライド＋フェード ===== */
+
+.slideshow-container {
+  max-width: 1200px;
+  height: 480px;
+  margin: 1.5rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* スライドを本文幅制約から外す */
+.slideshow-container {
+  max-width: none;     /* 制限解除 */
+  width: 92vw;         /* 画面幅の 92% を使用 */
+  margin: 1.5rem auto; /* 常に中央 */
+}
+
+/* ===== トップスライド：横幅の最終調整 ===== */
+.slideshow-container {
+  width: min(96vw, 960px);  /* ★ 画面追従しつつ上限を設定 */
+  height: 540px;
+  margin: 1.5rem auto;      /* ★ 常に中央寄せ */
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* 画面幅いっぱいにしたい場合 */
+/*
+.slideshow-container {
+  max-width: none;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+*/
+
+/* .slideshow-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.25) 100%
+  );
+} */
+
+.slides-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+  opacity: 0.4;
+  transform: scale(0.985);     /* ← わずかに小さく */
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+/* 表示中スライドのみ可視 */
+.slide.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* 表示中スライドを強調 */
+/*
+.slides-track .slide:nth-child(1) {
+  opacity: 1;
+  transform: scale(1);
+}
+*/
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+/* ===== オーバーレイ ===== */
+
+.slide .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 8%;
+  pointer-events: none;
+}
+
+.slide .overlay-inner {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 0 2px 8px rgba(0,0,0,.6);
+}
+
+.slide .overlay-inner span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .slideshow-container {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slideshow-container {
+    height: 260px;
+  }
+
+  /* ===== モバイル最適化 ===== */
+  .slideshow-container {
+    height: 56vw;   /* 16:9 比率を維持 */
+    margin: 1rem auto;
+  }
+
+}
+
+/* ===== ヘッダーを常に最前面に ===== */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+/* スライドはそれより下 */
+.slideshow-container {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ===== Research page: card grid ===== */
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 2rem;
+}
+
+.research-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.research-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.research-card h3 {
+  font-size: 1.1rem;
+  margin: 0.8rem 1rem 0.4rem;
+}
+
+.research-card p {
+  font-size: 0.95rem;
+  margin: 0 1rem 0.8rem;
+  line-height: 1.5;
+}
+
+.research-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.research-card-link:hover .research-card {
+  transform: translateY(-4px);
+  transition: 0.2s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.research-card {
+  position: relative;
+}
+
+.card-arrow {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.research-card-link:hover .card-arrow {
+  opacity: 1.0;
+}
+
+.research-card.disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.research-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.research-card .tags {
+  margin: 0 1rem 1rem;
+}
+
+/* =========================
+   Research Tag Design
+   ========================= */
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  margin: 3px 6px 0 0;
+  border-radius: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ===== 技術軸（青） ===== */
+
+.tag.tech {
+  background-color: #e3f0ff;
+  color: #0b4fa2;
+}
+
+/* ===== 応用分野（産業）緑 ===== */
+
+.tag.industry {
+  background-color: #e6f6ea;
+  color: #1b7a3a;
+}
+
+/* ===== 応用分野（生活支援）オレンジ ===== */
+
+.tag.life {
+  background-color: #fff1e6;
+  color: #b55300;
+}
+
+/* 軽いホバー効果（任意） */
+.tag:hover {
+  opacity: 0.85;
+}

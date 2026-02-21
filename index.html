@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>システム工学研究室（高橋G） | システム工学研究室（高橋G）— 豊橋技術科学大学 機械工学系</title>
+
+  <!-- ★ minima 本体の CSS（必須） -->
+  <link rel="stylesheet" href="/tlab-site/assets/main.css">
+
+  <!-- ★ CSS を自前で指定（キャッシュ対策） -->
+  <link rel="stylesheet" href="/tlab-site/assets/main_v2.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0CSD5LQZZC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0CSD5LQZZC');
+  </script>
+
+</head>
+
+  </head>
+  <body>
+
+    <header class="site-header" role="banner">
+  <div class="wrapper">
+
+    <!-- サイトタイトル（テーマ minima と互換の書き方） -->
+    <a class="site-title" rel="author" href="/tlab-site/">
+      システム工学研究室（高橋G）— 豊橋技術科学大学 機械工学系
+    </a>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484
+                     C0,0.665,0.665,0,1.484,0h15.031C17.335,0,18,0.665,18,1.484z
+                     M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516
+                     C0,6.696,0.665,6.031,1.484,6.031h15.031C17.335,6.031,18,6.696,18,7.516z
+                     M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516
+                     c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <!-- {# ------------ 日本語メニュー ------------ #} -->
+          <a class="page-link" href="/tlab-site/">
+            ホーム
+          </a>
+          <a class="page-link" href="/tlab-site/research/">
+            研究テーマ
+          </a>
+          <a class="page-link" href="/tlab-site/publications/">
+            研究業績
+          </a>
+          <a class="page-link" href="/tlab-site/members/">
+            メンバー
+          </a>
+          <a class="page-link" href="/tlab-site/access/">
+            アクセス
+          </a>
+          <a class="page-link" href="/tlab-site/contact/">
+            お問い合わせ
+          </a>
+          <!-- 英語トップへの切り替えリンク（小さめ） -->
+          <a class="page-link" href="/tlab-site/en/">
+            English
+          </a></div>
+    </nav>
+
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post"><div class="post-content">
+    <div class="slideshow-container">
+  <div class="slides-track">
+    <div class="slide">
+      <img src="/tlab-site/assets/images/top/slide1.png" />
+      <div class="overlay">
+        <div class="overlay-inner" data-ja-title="システム工学研究室（高橋Gr）" data-ja-sub="豊橋技術科学大学 機械工学系" data-en-title="Systems Engineering Laboratory (T-lab)" data-en-sub="Department of Mechanical Engineering, TUT">
+          <span class="title"></span><br />
+          <span class="sub"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="/tlab-site/assets/images/top/slide3.png" />
+    </div>
+
+    <div class="slide">
+      <img src="/tlab-site/assets/images/top/slide5.png" />
+    </div>
+
+    <!-- ★ 先頭を複製（クローン） -->
+    <div class="slide is-clone">
+      <img src="/tlab-site/assets/images/top/slide1.png" />
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  
+  /* =========================
+     ① スライド（横移動＋無限ループ）
+     ========================= */
+  
+  const track  = document.querySelector(".slides-track");
+  const slides = document.querySelectorAll(".slide");
+  const slideCount = slides.length;
+
+  let index = 0;
+  const duration = 800;   // アニメーション時間(ms)
+  const interval = 4500;  // 切替間隔(ms)
+
+  // 初期状態
+  slides[index].classList.add("is-active");
+
+  setInterval(() => {
+    // 現在スライドを非アクティブに
+    slides[index].classList.remove("is-active");
+
+    index++;
+
+    // 横移動
+    track.style.transition = `transform ${duration}ms ease-in-out`;
+    track.style.transform  = `translateX(-${index * 100}%)`;
+
+    // 通常スライドなら active を付与
+    if (index < slideCount - 1) {
+      slides[index].classList.add("is-active");
+    }
+
+    // クローンに到達したら先頭へ巻き戻す
+    if (index === slideCount - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        track.style.transform  = "translateX(0)";
+        index = 0;
+
+        slides.forEach(s => s.classList.remove("is-active"));
+        slides[0].classList.add("is-active");
+      }, duration);
+    }
+
+  }, interval);
+
+　/* =========================
+     ② 日本語 / 英語オーバーレイ自動切替
+     ========================= */
+  const isEn =
+    window.location.pathname.startsWith("/en/") ||
+    window.location.pathname.includes("/en/");
+
+  const overlay = document.querySelector(".overlay-inner");
+  if (!overlay) return;
+
+  const titleEl = overlay.querySelector(".title");
+  const subEl   = overlay.querySelector(".sub");
+
+  if (isEn) {
+    titleEl.textContent = overlay.dataset.enTitle;
+    subEl.textContent   = overlay.dataset.enSub;
+  } else {
+    titleEl.textContent = overlay.dataset.jaTitle;
+    subEl.textContent   = overlay.dataset.jaSub;
+  }
+});
+</script>
+
+<h2>お知らせ</h2>
+<ul>
+  
+    <li>
+      <a href="/tlab-site/2025/09/06/news.html">M2小川さん、M1木田さんがRSJ学術講演会で口頭発表しました</a>
+      <small>(2025-09-06)</small>
+    </li>
+  
+    <li>
+      <a href="/tlab-site/2025/08/04/news.html">M2バイナーさんが IEEE ICMA 2025 で口頭発表しました。</a>
+      <small>(2025-08-04)</small>
+    </li>
+  
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+</html>
