@@ -6,17 +6,20 @@ permalink: /research/
 
 <div class="research-grid">
 
-  <div class="research-card">
-    <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
-    <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
-    <p>
-      設備配置の変更が頻繁な工場にも適用できるVGM位置推定により搬送ロボットの自動化を目指します。
-    </p>
-    <div class="tags">
-    　<span class="tag tech">AMR</span>
-      <span class="tag industry">Factory Automation</span>
+  <a href="{{ '/research/factory_amr/' | relative_url }}" class="research-card-link">
+    <div class="research-card">
+    　<span class="card-arrow">→</span>
+      <img src="{{ '/assets/images/research/SCANinHamanaE.png' | relative_url }}" alt="Digital twin">
+      <h3>可変ゾーニング工場における搬送ロボットの自動化</h3>
+      <p>
+        設備配置の変更が頻繁な工場にも適用できるVGM位置推定により搬送ロボットの自動化を目指します。
+      </p>
+      <div class="tags">
+      　<span class="tag tech">AMR</span>
+        <span class="tag industry">Factory Automation</span>
+      </div>
     </div>
-  </div>
+  </a>
 
   <div class="research-card">
     <img src="{{ '/assets/images/research/vmg_flow2025.png' | relative_url }}" alt="VGM localization">
