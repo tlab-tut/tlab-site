@@ -17,7 +17,7 @@ nav_order: 2
 
 ![Background]({{ 'assets/images/research/factory_amr/false_of_LiDAR_Navi.gif' | relative_url }})
 
-工場は製品や工程に応じてレイアウト変更（再ゾーニング）を行う。本研究では、レイアウト変化に耐性を持つAMRの自律移動を実現する。
+工場では、製品や工程の変更に応じて設備レイアウトを変更（再ゾーニング）することが一般的である。現在広く普及している2D-LiDARベースのナビゲーション手法では、マップ作成時と比較して大きなレイアウト変更が生じた場合、自己位置推定が破綻しやすいという課題がある。確かに、レイアウト変更に合わせて環境の再スキャンおよびマップの更新を逐次実施すれば対応は可能である。しかし、そのたびにマップ更新の工数が発生するという新たな負担が生じる。したがって、ゾーニングの変更に影響されにくい自己位置推定手法の確立が求められている。
 
 ---
 
@@ -25,7 +25,7 @@ nav_order: 2
 
 ![Approach](/assets/images/research/factory_amr/approach.jpg)
 
-- Zoning-aware localization  
+- Ceiling-VGM  
 - Map-augmented perceptual space  
 - インフラ軽量型位置推定  
 
