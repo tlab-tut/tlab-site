@@ -1,0 +1,478 @@
+- title: Safe and Efficient Multi-Robot Path Planning for Warehouse Environments
+  authors: Doniddorj Bayanjargal, Haruaki Ikushima, Takuma Nakao, Junji Takahashi,
+    Naoki Uchiyama
+  venue: 2025 IEEE International Conference on Mechatronics and Automation (ICMA)
+  year: 2025
+  type: international
+  pages: 700-705
+  doi: https://doi.org/10.1109/icma65362.2025.11120655
+- title: Accurate and Cost-Scalable Panorama Visual-Geometric-Matching based Localization
+    System for Robot Navigation
+  authors: Takuma Nakao, Junji Takahashi
+  venue: 2025 IEEE/SICE International Symposium on System Integration (SII)
+  year: 2025
+  type: international
+  pages: 1286-1291
+  doi: https://doi.org/10.1109/SII59315.2025.10871069
+- title: Image-retrieval Method Using Gradient Dilation Images for Cloud-based Positioning
+    System with 3D Wireframe Map
+  authors: Junji Takahashi, Kawabe Masato, Seiya Ito, Naoshi Kaneko, Wataro Takahashi,
+    Toshiki Sakamoto, Akihiro Shibata, Yong Yu
+  venue: Sensors and Materials
+  year: 2020
+  type: journal
+  volume: '32'
+  number: '2'
+  pages: 611-623
+  doi: https://doi.org/10.18494/SAM.2020.2678
+- title: A Hybrid Map with Permanent 3D Wireframes and Temporal Line Segments toward
+    Long-Term Visual Localization
+  authors: Tomoya Kaneko, Junji Takahashi, Seiya Ito, Yoshito Tobe
+  venue: SICE Journal of Control, Measurement, and System Integration
+  year: 2019
+  type: journal
+  volume: '12'
+  number: '4'
+  pages: 149-155
+  doi: https://doi.org/10.9746/jcmsi.12.149
+- title: Simulation Study of Allowance-Difference between an Environment and a map
+    for Visual Localization
+  authors: Kohei Shimmura, Junji Takahashi, Yong Yu, Akihiro Shibata, Toshiki Sakamoto
+  venue: 2019 15th International Conference on Intelligent Environments (IE)
+  year: 2019
+  type: international
+  doi: https://doi.org/10.1109/ie.2019.00023
+- title: Using Wi-Fi Signals for Creating a Clustered Image Database in UMap
+  authors: Wataro Takahashi, Junji Takahashi, Yoshito Tobe
+  venue: Ambient Intelligence and Smart Environments
+  year: 2019
+  type: international
+  volume: '26'
+  pages: 352-356
+  doi: https://doi.org/10.3233/AISE190065
+- title: A Method Localizing an Omnidirectional Image in Pre-Constructed 3D Wireframe
+    Map
+  authors: Kusuno Yoshiki, Junji Takahashi, Yu YONG
+  venue: 2019 IEEE/SICE International Symposium on System Integration (SII)
+  year: 2019
+  type: international
+  doi: https://doi.org/10.1109/SII.2019.8700393
+- title: Improvements of Image Retrieval-based Visual Localization Using Structured
+    Database
+  authors: Ayari Akada, Junji Takahashi, Yu Yong
+  venue: 2019 IEEE International Conference on Pervasive Computing and Communications
+    Workshops (PerCom Workshops)
+  year: 2019
+  type: international
+  doi: https://doi.org/10.1109/percomw.2019.8730768
+- title: Global localization from a single image in known indoor environments
+  authors: Seiya Ito, Naoshi Kaneko, Junji Takahashi, Kazuhiko Sumi
+  venue: 2018 Joint 7th International Conference on Informatics, Electronics and Vision
+    and 2nd International Conference on Imaging, Vision and Pattern Recognition, ICIEV-IVPR
+    2018
+  year: 2019
+  type: international
+  pages: 70-75
+  doi: https://doi.org/10.1109/ICIEV.2018.8641025
+- title: A Message Sharing System that Enables Highly Accurate Space Attachment Linked
+    with the Web.
+  authors: Shunki Kitsunai, Junji Takahashi, Yoshito Tobe
+  venue: International Conference on Information and Communication Technology Convergence,
+    ICTC 2018, Jeju Island, Korea (South), October 17-19, 2018
+  year: 2018
+  type: international
+  pages: 160-165
+  doi: https://doi.org/10.1109/ICTC.2018.8539411
+- title: 'HLSI: Intelligent Sensors with HTTP Connection to Servers.'
+  authors: Masaru Onodera, Tomoya Kaneko, Junji Takahashi, Yoshito Tobe
+  venue: Intelligent Environments 2018 - Workshop Proceedings of the 14th International
+    Conference on Intelligent Environments, Rome, Italy, 25-28 June 2018
+  year: 2018
+  type: international
+  pages: 551-556
+  doi: https://doi.org/10.3233/978-1-61499-874-7-551
+- title: Improvement of Localization Accuracy with Consecutive Images Using Pre-Map.
+  authors: Wataro Takahashi, Junji Takahashi, Yoshito Tobe
+  venue: Intelligent Environments 2018 - Workshop Proceedings of the 14th International
+    Conference on Intelligent Environments, Rome, Italy, 25-28 June 2018
+  year: 2018
+  type: international
+  pages: 544-550
+  doi: https://doi.org/10.3233/978-1-61499-874-7-544
+- title: 'Universal Map: A Concept and Recent Results of Cloud-Based Positioning Infrastructure
+    System.'
+  authors: Junji Takahashi
+  venue: Intelligent Environments 2018 - Workshop Proceedings of the 14th International
+    Conference on Intelligent Environments, Rome, Italy, 25-28 June 2018
+  year: 2018
+  type: international
+  pages: 149-156
+  doi: https://doi.org/10.3233/978-1-61499-874-7-149
+- title: 'YKOB: Participatory Sensing-Based Road Condition Monitoring Using Smartphones
+    Worn by Cyclist'
+  authors: Junji Takahashi, Yusuke Kobana, Naoya Isoyama, Yoshito Tobe, Guillaume
+    Lopez
+  venue: Electronics and Communications in Japan
+  year: 2018
+  type: journal
+  volume: '101'
+  number: '4'
+  pages: 3-14
+  doi: https://doi.org/10.1002/ecj.12027
+- title: Controlling of Communication Connection Range using Acoustic Waves Emitted
+    from Smartphones
+  authors: Satoshi Moriyama, Yusuke Kawakita, Junji Takahashi, Yoshito Tobe
+  venue: Journal of Reliable Intelligent Environments
+  year: 2018
+  type: journal
+  volume: '4'
+  number: '2'
+  pages: 75-87
+  doi: https://doi.org/10.1007/s40860-018-0059-0
+- title: 'YKOB: Participatory Sensing based Road Condition Monitoring using Smartphones
+    worn by Cyclist'
+  authors: Junji Takahashi, Yusuke Kobana, Naoya Isoyama, Yoshito Tobe, Guillaume
+    Lopez
+  venue: Electronics and Communications in Japan
+  year: 2018
+  type: journal
+  volume: '0'
+  number: '0'
+  pages: 105-115
+  doi: https://doi.org/10.5539/gjhs.v9n9p105
+- title: Investigation of an algorithm to maximize the information observed by multiple
+    autonomous UAVs
+  authors: Taiki Watanabe, Junji Takahashi, Yoshito Tobe
+  venue: Proceedings of IEEE Sensors
+  year: 2017
+  type: international
+  volume: 2017-
+  pages: 1-3
+  doi: https://doi.org/10.1109/ICSENS.2017.8233987
+- title: Effectivity evaluation of YKOB in actual city road.
+  authors: Ryuji Suzuki, Junji Takahashi, Yoshito Tobe
+  venue: IEEE/SICE International Symposium on System Integration, SII 2017, Taipei,
+    Taiwan, December 11-14, 2017
+  year: 2017
+  type: international
+  pages: 276-281
+  doi: https://doi.org/10.1109/SII.2017.8279225
+- title: Creation of Communication Groups Using Sound of Smartphones
+  authors: Satoshi Moriyama, Junji Takahashi, Yoshito Tobe
+  venue: Intelligent Environments 2017 - Workshop Proceedings of the 13th International
+    Conference on Intelligent Environments, Seoul, Korea, August 2017
+  year: 2017
+  type: international
+  pages: 8-14
+  doi: https://doi.org/10.3233/978-1-61499-796-2-8
+- title: 'YKOB: Participatory Sensing based Road Condition Monitoring using Smartphones
+    worn by Cyclist'
+  authors: Takahashi Junji, Kobana Yusuke, Isoyama Naoya, Tobe Yoshito, Lopez Guillaume
+  venue: IEEJ Transactions on Electronics, Information and Systems
+  year: 2017
+  type: journal
+  volume: '137'
+  number: '4'
+  pages: 658-666
+  doi: https://doi.org/10.1541/ieejeiss.137.658
+- title: A mobile Wi-Fi access point considering types and volumes of traffic
+  authors: Yuto Kobayashi, Junji Takahashi, Yoshito Tobe
+  venue: Lecture Notes in Engineering and Computer Science
+  year: 2017
+  type: international
+  volume: '2229'
+  pages: 519-523
+- title: Trajectory Reconstruction Algorithm based on Sensor Fusion between IMU and
+    Strain Gauge for Stand-alone Digital Pen
+  authors: Naoya Toyozumi, Junji Takahashi, Guillaume Lopez
+  venue: 2016 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (ROBIO)
+  year: 2016
+  type: international
+  pages: 1906-1911
+  doi: https://doi.org/10.1109/ROBIO.2016.7866607
+- title: Precise assembly of ring part with optimized hollowed finger
+  authors: Tomoya Fukukawa, Junji Takahashi, Toshio Fukuda
+  venue: ROBOMECH Journal
+  year: 2016
+  type: journal
+  volume: '3'
+  number: '1'
+  doi: https://doi.org/10.1186/s40648-016-0055-1
+- title: Towards Optimizing Time of File Transfer Among Multiple Smartphones using
+    Wi-Fi Direct
+  authors: Naoto Mizumura, Hiroki Saito, Junji Takahashi, Yoshito Tobe
+  venue: 'ADJUNCT PROCEEDINGS OF THE 13TH INTERNATIONAL CONFERENCE ON MOBILE AND UBIQUITOUS
+    SYSTEMS: COMPUTING NETWORKING AND SERVICES (MOBIQUITOUS 2016)'
+  year: 2016
+  type: international
+  pages: 189-194
+  doi: https://doi.org/10.1145/3004010.3004052
+- title: Handwriting Command Recognition and Digital Operation Using Digitalized Pen
+  authors: Naoya Toyozumi, Junji Takahashi, Guillaume Lopez
+  venue: Journal of Communication and Computer
+  year: 2016
+  type: journal
+  volume: '13'
+  pages: 164-170
+  doi: https://doi.org/10.17265/1548-7709/2016.04.003
+- title: Wearable Individual Adapting Cooling System Using Smartphone and Heart Beat
+    Sensor
+  authors: Yuta Suzuki, Naoya Toyozumi, Junji Takahashi, Lopez Guillaume, Hiroshi
+    Hosaka, Kiyoshi Itao
+  venue: 2016 ANNUAL CONFERENCE OF THE SOCIETY OF INSTRUMENT AND CONTROL ENGINEERS
+    OF JAPAN (SICE)
+  year: 2016
+  type: international
+  volume: '2016'
+  pages: 531-536
+  doi: https://doi.org/10.1109/SICE.2016.7749266
+- title: 'COLLONA: Design and Implementation of Corridor-Level Localization Toward
+    Indoor Pedestrian Navigation'
+  authors: Yuki Yagi, Junji Takahashi, Guillaume Lopez, Yoshito Tobe
+  venue: Int. Journal of Computing and Network Technology
+  year: 2016
+  type: journal
+  volume: '4'
+  number: '2'
+- title: Analysis and Quantification on Assessment Criterion of Iaido Proficiency
+    level with Motion Capture Measurements
+  authors: TAKAHASHI Junji, BANDO Teruaki, LOPEZ Guillaume
+  venue: Transactions of the Virtual Reality Society of Japan
+  year: 2016
+  type: journal
+  volume: '21'
+  number: '3'
+  pages: 541-548
+  doi: https://doi.org/10.18974/tvrsj.21.3_541
+- title: 'Poster: Creation of a Co-Located Mobile-phone Users Group Using Voice'
+  authors: Satoshi Moriyama, Yuta Nishii, Junji Takahashi, Yoshito Tobe
+  venue: 'MOBISYS''16: COMPANION COMPANION PUBLICATION OF THE 14TH ANNUAL INTERNATIONAL
+    CONFERENCE ON MOBILE SYSTEMS, APPLICATIONS, AND SERVICES'
+  year: 2016
+  type: international
+  pages: 64-64
+  doi: https://doi.org/10.1145/2938559.2948772
+- title: 'Poster: Simplified In-door WiFi-Beacon Navigation System Without Exact Location'
+  authors: Qi Huang, Yuuki Yagi, Junji Takahashi, Yoshito Tobe
+  venue: 'MOBISYS''16: COMPANION COMPANION PUBLICATION OF THE 14TH ANNUAL INTERNATIONAL
+    CONFERENCE ON MOBILE SYSTEMS, APPLICATIONS, AND SERVICES'
+  year: 2016
+  type: international
+  pages: 33-33
+  doi: https://doi.org/10.1145/2938559.2948773
+- title: Clustering for Road Damage Locations Obtained by Smartphone Accelerometers
+  authors: Junji Takahashi, Daichi Shioiri, Yuki Shida, Yusuke Kobana, Ryuji Suzuki,
+    Yuto Kobayashi, Naoya Isoyama, Guillaume Lopez, Yoshito Tobe
+  venue: SECOND INTERNATIONAL CONFERENCE ON IOT IN URBAN SPACE (URB-IOT 2016)
+  year: 2016
+  type: international
+  pages: 89-91
+  doi: https://doi.org/10.1145/2962735.2962741
+- title: Passive Alignment Principle for Robotic Assembly Between a Ring and a Shaft
+    With Extremely Narrow Clearance
+  authors: Junji Takahashi, Tomoya Fukukawa, Toshio Fukuda
+  venue: IEEE-ASME TRANSACTIONS ON MECHATRONICS
+  year: 2016
+  type: journal
+  volume: '21'
+  number: '1'
+  pages: 196-204
+  doi: https://doi.org/10.1109/TMECH.2015.2448639
+- title: Accurate Road Damage Classification Based on Real Signal Mother Wavelet of
+    Acceleration Signal
+  authors: Yusuke Kobana, Junji Takahashi, Yoshito Tobe, Guillaume Lopez
+  venue: 2015 IEEE/SICE INTERNATIONAL SYMPOSIUM ON SYSTEM INTEGRATION (SII)
+  year: 2015
+  type: international
+  pages: 900-905
+  doi: https://doi.org/10.1109/SII.2015.7405119
+- title: Development of Pen based Interface System for Digital Operation
+  authors: Naoya Toyozumi, Junji Takahashi, Guillaume Lopez
+  venue: 2015 IEEE/SICE INTERNATIONAL SYMPOSIUM ON SYSTEM INTEGRATION (SII)
+  year: 2015
+  type: international
+  pages: 593-598
+  doi: https://doi.org/10.1109/SII.2015.7405046
+- title: Distance Control Between Multiple Drones for Stable Communication
+  authors: Riho Motooka, Takeru Katagiri, Shintaro Murayama, Junji Takahashi, Yoshito
+    Tobe, Ryo Nishikawa
+  venue: 2015 IEEE SENSORS
+  year: 2015
+  type: international
+  pages: 1705-1707
+- title: Classification of steps on road surface using acceleration signals
+  authors: Junji Takahashi, Yusuke Kobana, Yoshito Tobe, Guillaume Lopez
+  venue: 'Proceedings of the 12th International Conference on Mobile and Ubiquitous
+    Systems: Computing, Networking and Services, MOBIQUITOUS 2015'
+  year: 2015
+  type: international
+  volume: '1'
+  number: '5'
+  pages: 209-214
+  doi: https://doi.org/10.4108/icst.mobiquitous.2015.260293
+- title: Digital Operation through Pen based Interface System
+  authors: Junji Takahashi, Naoya Toyozumi, Kai Nakazato, Guillaume Lopez
+  venue: Proc. of the 2015 ASME-ISPS/JSME-IIP Joint Conference on Micromechatronics
+    for Information and Precision Equipment (MIPE 2015)
+  year: 2015
+  type: international
+  volume: '2015'
+  doi: https://doi.org/10.1299/jsmemipe.2015._WeC-4-4-1
+- title: Precise Robotic Assembly Using Passive Alignment Principle
+  authors: Takahashi Junji, Fukukawa Tomoya, Fukuda Toshio
+  venue: Journal of the Robotics Society of Japan
+  year: 2015
+  type: journal
+  volume: '33'
+  number: '5'
+  pages: 362-369
+  doi: https://doi.org/10.7210/jrsj.33.362
+- title: 'vCity Map: Crowdsensing Towards Visible Cities'
+  authors: Yoshito Tobe, Itaru Usami, Yusuke Kobana, Junji Takahashi, Guillaume Lopez,
+    Niwat Thepvilojanapong
+  venue: 2014 IEEE SENSORS
+  year: 2014
+  type: international
+  volume: '2014'
+  pages: 17-20
+  doi: https://doi.org/10.1109/ICSENS.2014.6984921
+- title: Detection of road damage using signals of smartphone-embedded accelerometer
+    while cycling
+  authors: Yusuke Kobana, Junji Takahashi, Naofumi Kitsunezaki, Yoshito Tobe, Guillaume
+    Lopez
+  venue: ACM International Conference Proceeding Series
+  year: 2014
+  type: international
+  doi: https://doi.org/10.1145/2637064.2637107
+- title: Passive Precise Assembly Algorithm for Ring Assembly
+  authors: FUKUKAWA Tomoya, TAKAHASHI Junji, FUKUDA Toshio
+  venue: TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series C
+  year: 2013
+  type: journal
+  volume: '79'
+  number: '808'
+  pages: 5093-5102
+  doi: https://doi.org/10.1299/kikaic.79.5093
+- title: Exoskeletal meal assistance system (EMAS II) for patients with progressive
+    muscular disease
+  authors: Yasuhisa Hasegawa, Saori Oura, Junji Takahashi
+  venue: ADVANCED ROBOTICS
+  year: 2013
+  type: journal
+  volume: '27'
+  number: '18'
+  pages: 1385-1398
+  doi: https://doi.org/10.1080/01691864.2013.841311
+- title: Assembly Algorithm for Plastic Ring with Characteristic Finger Shape
+  authors: Tomoya Fukukawa, Junji Takahashi, Toshio Fukuda
+  venue: 2012 IEEE/SICE INTERNATIONAL SYMPOSIUM ON SYSTEM INTEGRATION (SII)
+  year: 2012
+  type: international
+  pages: 470-475
+- title: Generic bioelectrical potential signal human-computer interface with electrostimulation
+    feedback
+  authors: Noel Segura Meraz, Yasuhisa Hasegawa, Junji Takahashi
+  venue: 2012 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (ROBIO 2012)
+  year: 2012
+  type: international
+  pages: 1476-1481
+  doi: https://doi.org/10.1109/ROBIO.2012.6491177
+- title: Alternative Interface System by Using Surface Electromyogram from Unusual
+    Muscles Contraction
+  authors: Junji Takahashi, Satoru Suezawa, Yasuhisa Hasegawa, Yoshiyuki Sankai
+  venue: 2012 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA)
+  year: 2012
+  type: international
+  pages: 4513-4518
+  doi: https://doi.org/10.1109/ICRA.2012.6225363
+- title: Tongue Motion Detection Based on BEP Signal around Frontal Neck by Using
+    SVM
+  authors: HASEGAWA Yasuhisa, TAKAHASHI Junji
+  venue: TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series C
+  year: 2012
+  type: journal
+  volume: '78'
+  number: '796'
+  pages: 3970-3978
+  doi: https://doi.org/10.1299/kikaic.78.3970
+- title: Alternative interface system by using surface EMG of residual muscles for
+    physically challenged person
+  authors: Junji Takahashi, Noel Segura Meraz, Satoru Suezawa, Yasuhisa Hasegawa,
+    Yoshiyuki Sankai
+  venue: 2011 IEEE International Conference on Robotics and Biomimetics, ROBIO 2011
+  year: 2011
+  type: international
+  pages: 1349-1354
+  doi: https://doi.org/10.1109/ROBIO.2011.6181476
+- title: Tongue Motion-based Operation of Support System for Paralyzed Patients
+  authors: Junji Takahashi, Satoru Suezawa, Yasuhisa Hasegawa, Yoshiyuki Sankai
+  venue: 2011 IEEE INTERNATIONAL CONFERENCE ON REHABILITATION ROBOTICS (ICORR)
+  year: 2011
+  type: international
+- title: Concept sharing between different concept representation robots
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: '2009 IEEE/SICE International Symposium on System Integration: SI International
+    2008 - The 2nd Symposium on System Integration'
+  year: 2009
+  type: international
+  pages: 118-123
+  doi: https://doi.org/10.1109/SI.2009.5384544
+- title: Multihop Teleoperation by the Mobile Robotic Sensor Network Usinga Self-Deployment
+    Algorithm
+  authors: TAKAHASHI Junji, SEKIYAMA Kosuke, FUKUDA Toshio
+  venue: Journal of Japan Society for Fuzzy Theory and Intelligent Informatics
+  year: 2009
+  type: journal
+  volume: '21'
+  number: '3'
+  pages: 411-420
+  doi: https://doi.org/10.3156/jsoft.21.411
+- title: Mobile Robotic Sensor Network Using Vision Tracking
+  authors: Junji Takahashi, M. D. Rokunuzzaman, Kosuke Sekiyama, Toshio Fukuda
+  venue: 2008 IEEE/SICE INTERNATIONAL SYMPOSIUM ON SYSTEM INTEGRATION
+  year: 2008
+  type: international
+  pages: 117-122
+- title: Cooperative Object Tracking with Mobile Robotic Sensor Network
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: DISTRIBUTED AUTONOMOUS ROBOTIC SYSTEMS 8
+  year: 2008
+  type: international
+  pages: 51-62
+- title: Self-deployment algorithm for mobile sensor network based on connection priority
+    criteria with obstacle avoidance
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: 2007 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS, VOLS 1-5
+  year: 2007
+  type: international
+  pages: 1434-1439
+  doi: https://doi.org/10.1109/ROBIO.2007.4522375
+- title: Self-deployment algorithm of mobile sensor network based on connection priority
+    criteria
+  authors: Junji Takahashi, Koske Sekiyama, Toshio Fukuda
+  venue: 2007 INTERNATIONAL SYMPOSIUM ON MICRO-NANO MECHATRONICS AND HUMAN SCIENCE,
+    VOLS 1 AND 2
+  year: 2007
+  type: international
+  pages: 564-569
+- title: Mechanical Design and Optimization of Ubiquitous Power Generator Suited for
+    Mechanical Input
+  authors: TAKAHASHI Junji, ARAI Fumihito, MOTOO Kouhei, FUKUDA Toshio, ITOIGAWA Koichi,
+    TANAKA Kenji
+  venue: Transactions of the Japan Society of Mechanical Engineers C
+  year: 2007
+  type: journal
+  volume: '73'
+  number: '729'
+  pages: 1501-1507
+  doi: https://doi.org/10.1299/kikaic.73.1501
+- title: Mechanical design and optimization of ubiquitous power generator suited for
+    mechanical input
+  authors: Junji Takahasi, Toshio Fukuda, Fumihito Arai, Kouichi Itoigawa, Kenji Tanaka,
+    Kouhei Motoo
+  venue: 2006 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS,
+    VOLS 1-12
+  year: 2006
+  type: international
+  pages: 4393-+
+  doi: https://doi.org/10.1109/IROS.2006.282017
