@@ -22,10 +22,10 @@ permalink: /publications/
 ## International Conference Papers
 {% assign confs = site.data.publications | where: "type", "international" | sort: "year" | reverse %}
 
-{% for pub in international %}
+{% for pub in confs %}
 - {{ pub.authors }},  
   "{{ pub.title }},"  
   **{{ pub.venue }}**,  
-  {{ pub.volume }}({{ pub.number }}), pp.{{ pub.pages }}, {{ pub.year }}.  
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.  
   {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
 {% endfor %}
