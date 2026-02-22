@@ -1,17 +1,15 @@
----
-layout: page
-title: 研究業績
-permalink: /publications/
----
-
-- [Google Scholar](https://scholar.google.com/)
-- [researchmap](https://researchmap.jp/)
-
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
 
 {% for y in years %}
-## {{ y }}
+
+{% if forloop.first %}
+<details open>
+{% else %}
+<details>
+{% endif %}
+
+<summary><strong>{{ y }}</strong></summary>
 
 {% assign yearly = pubs | where: "year", y %}
 
@@ -49,5 +47,7 @@ permalink: /publications/
   **{{ pub.venue }}**.
 {% endfor %}
 {% endif %}
+
+</details>
 
 {% endfor %}
