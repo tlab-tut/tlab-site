@@ -409,3 +409,70 @@
   venue: 2011 IEEE INTERNATIONAL CONFERENCE ON REHABILITATION ROBOTICS (ICORR)
   year: 2011
   type: international
+- title: Concept sharing between different concept representation robots
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: '2009 IEEE/SICE International Symposium on System Integration: SI International
+    2008 - The 2nd Symposium on System Integration'
+  year: 2009
+  type: international
+  pages: 118-123
+  doi: https://doi.org/10.1109/SI.2009.5384544
+- title: Multihop Teleoperation by the Mobile Robotic Sensor Network Usinga Self-Deployment
+    Algorithm
+  authors: TAKAHASHI Junji, SEKIYAMA Kosuke, FUKUDA Toshio
+  venue: Journal of Japan Society for Fuzzy Theory and Intelligent Informatics
+  year: 2009
+  type: journal
+  volume: '21'
+  number: '3'
+  pages: 411-420
+  doi: https://doi.org/10.3156/jsoft.21.411
+- title: Mobile Robotic Sensor Network Using Vision Tracking
+  authors: Junji Takahashi, M. D. Rokunuzzaman, Kosuke Sekiyama, Toshio Fukuda
+  venue: 2008 IEEE/SICE INTERNATIONAL SYMPOSIUM ON SYSTEM INTEGRATION
+  year: 2008
+  type: international
+  pages: 117-122
+- title: Cooperative Object Tracking with Mobile Robotic Sensor Network
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: DISTRIBUTED AUTONOMOUS ROBOTIC SYSTEMS 8
+  year: 2008
+  type: international
+  pages: 51-62
+- title: Self-deployment algorithm for mobile sensor network based on connection priority
+    criteria with obstacle avoidance
+  authors: Junji Takahashi, Kosuke Sekiyama, Toshio Fukuda
+  venue: 2007 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS, VOLS 1-5
+  year: 2007
+  type: international
+  pages: 1434-1439
+  doi: https://doi.org/10.1109/ROBIO.2007.4522375
+- title: Self-deployment algorithm of mobile sensor network based on connection priority
+    criteria
+  authors: Junji Takahashi, Koske Sekiyama, Toshio Fukuda
+  venue: 2007 INTERNATIONAL SYMPOSIUM ON MICRO-NANO MECHATRONICS AND HUMAN SCIENCE,
+    VOLS 1 AND 2
+  year: 2007
+  type: international
+  pages: 564-569
+- title: Mechanical Design and Optimization of Ubiquitous Power Generator Suited for
+    Mechanical Input
+  authors: TAKAHASHI Junji, ARAI Fumihito, MOTOO Kouhei, FUKUDA Toshio, ITOIGAWA Koichi,
+    TANAKA Kenji
+  venue: Transactions of the Japan Society of Mechanical Engineers C
+  year: 2007
+  type: journal
+  volume: '73'
+  number: '729'
+  pages: 1501-1507
+  doi: https://doi.org/10.1299/kikaic.73.1501
+- title: Mechanical design and optimization of ubiquitous power generator suited for
+    mechanical input
+  authors: Junji Takahasi, Toshio Fukuda, Fumihito Arai, Kouichi Itoigawa, Kenji Tanaka,
+    Kouhei Motoo
+  venue: 2006 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS,
+    VOLS 1-12
+  year: 2006
+  type: international
+  pages: 4393-+
+  doi: https://doi.org/10.1109/IROS.2006.282017
