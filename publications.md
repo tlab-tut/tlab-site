@@ -4,7 +4,17 @@ title: 研究業績
 permalink: /publications/
 ---
 
-## 学術論文
-- J. Takahashi et al., "A Hybrid Map with Permanent 3D Wireframes and Temporal Line Segments toward Longterm Visual Localization," **SICE JCMSI**, 12(4), pp.149-155, 2019.
+- [Google Scholar](https://scholar.google.com/)
+- [researchmap](https://researchmap.jp/)
 
-Google Scholar / researchmap へのリンクを併記するとユーザビリティが向上します。
+## 学術論文（Journal Papers）
+
+{% assign journals = site.data.publications | where: "type", "journal" | sort: "year" | reverse %}
+
+{% for pub in journals %}
+- {{ pub.authors }},  
+  "{{ pub.title }},"  
+  **{{ pub.journal }}**,  
+  {{ pub.volume }}({{ pub.number }}), pp.{{ pub.pages }}, {{ pub.year }}.  
+  {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
+{% endfor %}
