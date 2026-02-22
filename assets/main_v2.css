@@ -331,3 +331,26 @@ details > *:not(summary) {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+
+/* ブラウザ標準マーカーを消す */
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 自前の矢印を描画 */
+summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+/* 開いたとき */
+details[open] summary::before {
+  transform: rotate(90deg);
+}
