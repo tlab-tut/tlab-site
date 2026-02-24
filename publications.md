@@ -57,4 +57,6 @@ permalink: /publications/
 {% endfor %}
 {% endif %}
 
+</details>
+
 {% endfor %}
