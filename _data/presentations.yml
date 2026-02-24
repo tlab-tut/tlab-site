@@ -1,0 +1,61 @@
+---
+layout: page
+title: 発表
+permalink: /presentations/
+---
+
+{% assign pres = site.data.presentations | sort: "year" | reverse %}
+{% assign years = pres | map: "year" | uniq %}
+
+{% for y in years %}
+
+{% if forloop.first %}
+<details class="accordion" open>
+{% else %}
+<details class="accordion">
+{% endif %}
+
+<summary><strong>{{ y }}</strong></summary>
+
+{% assign yearly = pres | where: "year", y %}
+{% assign internationals = yearly | where: "category", "international" %}
+{% assign domestics = yearly | where: "category", "domestic" %}
+
+{% if internationals.size > 0 %}
+<h4>International Presentations</h4>
+<ul>
+{% for p in internationals %}
+<li class="presentation-item {% if p.award %}award{% endif %}">
+  {{ p.authors }},
+  “{{ p.title }},”
+  <strong>{{ p.venue }}</strong>.
+  {% if p.presentation_type %} ({{ p.presentation_type }}){% endif %}
+  {% if p.pages %}, pp.{{ p.pages }}{% endif %}
+  {% if p.pdf %}
+    <br><a href="{{ p.pdf }}" target="_blank">[PDF]</a>
+  {% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if domestics.size > 0 %}
+<h4>国内学会発表</h4>
+<ul>
+{% for p in domestics %}
+<li class="presentation-item {% if p.award %}award{% endif %}">
+  {{ p.authors }},
+  「{{ p.title }}」,
+  <strong>{{ p.venue }}</strong>.
+  {% if p.presentation_type %}（{{ p.presentation_type }}）{% endif %}
+  {% if p.pdf %}
+    <br><a href="{{ p.pdf }}" target="_blank">[資料]</a>
+  {% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+</details>
+
+{% endfor %}
