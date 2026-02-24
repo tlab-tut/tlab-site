@@ -830,15 +830,15 @@
   presentation_type: poster
   award: false
   language: ja
-- title: 自転車走行時の路面情報抽出 : 基本検討および実測定 (モバイルネットワークとアプリケーション)
+- title: "自転車走行時の路面情報抽出 : 基本検討および実測定 (モバイルネットワークとアプリケーション)"
   authors: 小花 祐輔, 高橋 淳二, 宇佐美 格
-  venue: 電子情報通信学会技術研究報告 = IEICE technical report : 信学技報
+  venue: "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報"
   year: 2014
   category: domestic
   presentation_type: oral
   award: false
   language: ja
-- title: 自転車走行時の路面情報抽出:基本検討および実測定
+- title: "自転車走行時の路面情報抽出: 基本検討および実測定:
   authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸辺 義人, Lopez Guillaume
   venue: 情報処理学会研究報告. マルチメディア通信と分散処理研究会報告
   year: 2014
@@ -846,7 +846,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: 自転車走行時の路面情報抽出 : 基本検討および実測定(モバイルアプリケーション,ユビキタスサービス,モバイル分散クラウド,モバイルアドホックネットワーク,センサネットワーク,モバイルネットワーク及び一般)
+- title: "自転車走行時の路面情報抽出 : 基本検討および実測定(モバイルアプリケーション,ユビキタスサービス,モバイル分散クラウド,モバイルアドホックネットワーク,センサネットワーク,モバイルネットワーク及び一般)"
   authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸部 義人, LOPEZ Guillaume
   venue: 電子情報通信学会技術研究報告. MoNA, モバイルネットワークとアプリケーション
   year: 2014
@@ -854,7 +854,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: 自転車走行時の路面情報抽出：基本検討および実測定
+- title: "自転車走行時の路面情報抽出：基本検討および実測定"
   authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸辺 義人, OPEZ Guillaume
   venue: 第71回モバイルコンピューティングとユビキタス通信合同研究発表会
   year: 2014
@@ -886,7 +886,7 @@
   presentation_type: poster
   award: false
   language: ja
-- title: 2A1-V08 SVMを用いた前頸部表面筋電位に基づく舌運動の検出(福祉ロボティクス・メカトロニクス(2))
+- title: "SVMを用いた前頸部表面筋電位に基づく舌運動の検出(福祉ロボティクス・メカトロニクス(2))"
   authors: 長谷川 泰久, 末澤 賢, 副島 英明, 高橋 淳二
   venue: ロボティクス・メカトロニクス講演会講演概要集
   year: 2012
@@ -902,7 +902,7 @@
   presentation_type: poster
   award: false
   language: ja
-- title: 2P2-F07 舌運動による生活支援装置のための操作インタフェースの提案(福祉ロボティクス・メカトロニクス(2))
+- title: 舌運動による生活支援装置のための操作インタフェースの提案(福祉ロボティクス・メカトロニクス(2))
   authors: 長谷川 泰久, 末澤 賢, 高橋 淳二
   venue: ロボティクス・メカトロニクス講演会講演概要集
   year: 2011
@@ -942,7 +942,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: 2A1-B22 通信タイミング制御とトポロジー再構成を行うシンクフリーメッシュセンサネットワーク
+- title: 通信タイミング制御とトポロジー再構成を行うシンクフリーメッシュセンサネットワーク
   authors: 高橋 淳二, 山口 卓哉, 関山 浩介, 福田 敏男
   venue: ロボティクス・メカトロニクス講演会講演概要集
   year: 2009
@@ -974,7 +974,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: 1A1-F06 群ロボットを用いたマルチホップテレオペレーションによる実環境観測(群ロボットの協調制御)
+- title: 群ロボットを用いたマルチホップテレオペレーションによる実環境観測(群ロボットの協調制御)
   authors: 高橋 淳二, 関山 浩介, 福田 敏男
   venue: ロボティクス・メカトロニクス講演会講演概要集
   year: 2008
@@ -982,7 +982,7 @@
   presentation_type: poster
   award: false
   language: ja
-- title: B-21-19 位相拡散時分割方式における通信負荷の変化に応じた通信時間の自律制御(B-21. アドホックネットワーク,一般セッション)
+- title: 位相拡散時分割方式における通信負荷の変化に応じた通信時間の自律制御
   authors: 関山 浩介, 山口 卓哉, 久保 祐樹, 伊達 正晃, 高橋 淳二, 伊藤 肇, 福田 敏男
   venue: 電子情報通信学会総合大会講演論文集
   year: 2008
@@ -1006,7 +1006,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: BS-2-1 位相拡散時分割方式による自律分散通信タイミング制御大規模実証実験(BS-2.MACレイヤを中心としたワイヤレスリソース制御技術,シンポジウム)
+- title: 位相拡散時分割方式による自律分散通信タイミング制御大規模実証実験
   authors: 関山 浩介, 山岡 正明, 久保 祐樹, 伊達 正晃, 高橋 淳二, 福田 敏男
   venue: 電子情報通信学会総合大会講演論文集
   year: 2007
