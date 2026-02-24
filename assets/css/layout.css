@@ -58,7 +58,7 @@
 
 /* Responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   
   .menu-icon {
     display: block;
@@ -79,4 +79,5 @@
     display: block;
     padding: 10px 20px;
   }
+  
 }
