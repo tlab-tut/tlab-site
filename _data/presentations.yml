@@ -1,61 +1,1032 @@
----
-layout: page
-title: 発表
-permalink: /presentations/
----
-
-{% assign pres = site.data.presentations | sort: "year" | reverse %}
-{% assign years = pres | map: "year" | uniq %}
-
-{% for y in years %}
-
-{% if forloop.first %}
-<details class="accordion" open>
-{% else %}
-<details class="accordion">
-{% endif %}
-
-<summary><strong>{{ y }}</strong></summary>
-
-{% assign yearly = pres | where: "year", y %}
-{% assign internationals = yearly | where: "category", "international" %}
-{% assign domestics = yearly | where: "category", "domestic" %}
-
-{% if internationals.size > 0 %}
-<h4>International Presentations</h4>
-<ul>
-{% for p in internationals %}
-<li class="presentation-item {% if p.award %}award{% endif %}">
-  {{ p.authors }},
-  “{{ p.title }},”
-  <strong>{{ p.venue }}</strong>.
-  {% if p.presentation_type %} ({{ p.presentation_type }}){% endif %}
-  {% if p.pages %}, pp.{{ p.pages }}{% endif %}
-  {% if p.pdf %}
-    <br><a href="{{ p.pdf }}" target="_blank">[PDF]</a>
-  {% endif %}
-</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if domestics.size > 0 %}
-<h4>国内学会発表</h4>
-<ul>
-{% for p in domestics %}
-<li class="presentation-item {% if p.award %}award{% endif %}">
-  {{ p.authors }},
-  「{{ p.title }}」,
-  <strong>{{ p.venue }}</strong>.
-  {% if p.presentation_type %}（{{ p.presentation_type }}）{% endif %}
-  {% if p.pdf %}
-    <br><a href="{{ p.pdf }}" target="_blank">[資料]</a>
-  {% endif %}
-</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-</details>
-
-{% endfor %}
+- title: Sim to Realによる汚れ評価のためのビルメンテナンスロボット
+  authors: 小川永遠, 高橋淳二, 吉田武史
+  venue: SICE東海支部 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Optimized Visual Geometric Matchingによる単眼ドリフトレス位置推定の性能評価
+  authors: 利根川涼, 高橋淳二
+  venue: SICE東海支部 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: NDT+Panorama-VGM位置推定を用いたロボットの自律走行
+  authors: 木田博貴, 中尾拓真, 高橋淳二
+  venue: SICE東海支部 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 工場内設置物体を参照にしたロボット自己位置推定システム
+  authors: StanleySusantyo, 高橋淳二
+  venue: SICE東海支部 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 図書館における配架ミス検出のためのラベル読み取りロボットシステムの開発
+  authors: 日野綾瀬, 高橋淳二, 吉田武史, 堀尾亮介
+  venue: SICE東海支部 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 位置推定システムCeiling-VGMを用いたAMRの工場環境への適用に関する研究
+  authors: 小西洸生, 中馬豪斗, 高橋淳二
+  venue: SICE東海支部 研究発表会＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 人と連携する自律移動ロボットの制御手法の検討
+  authors: 森川倭, 高橋淳二
+  venue: 研究発表＆企業交流会
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 図書館における配架ミス検出のためのラベル読み取りロボットシステムの開発
+  authors: 日野綾瀬, 高橋淳, 吉田武史
+  venue: 第155回講習会「工作機械の最新講習会と学生交流会」
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Visual Geometric Matching に Direct Edge Alignment を統合した 6 自由度位置推定システム Optimized-VGM の提案
+  authors: 利根川涼, 高橋淳二
+  venue: 第155回講習会「工作機械の最新講習会と学生交流会」
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: クラウドソーシングを利用した半自律ロボットシステムの提案
+  authors: 森川倭, 高橋淳二
+  venue: 第155回講習会「工作機械の最新講習会と学生交流会」
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 位置推定システム Ceiling-VGM の物品の配置が流動的な環境への適用とパラ メータ調整
+  authors: 小西 洸生, 中馬, 豪斗, 高橋 淳二
+  venue: 第 155 回講習会「工作機械の最新講習会と学生交流会」
+  year: 2025
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 図書館における配架ミス検出のためのラベル読み取りロボットシステムの開発
+  authors: 日野綾瀬, 高橋淳二, 吉田武史
+  venue: SICEスマートセンシングシステム部会研究発表会
+  year: 2025
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 位置推定システムCeiling-VGMの工場への導入とパラメータ調整
+  authors: 小西洸生, 中馬豪斗, 高橋淳二
+  venue: SICEスマートセンシングシステム部会研究発表会
+  year: 2025
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: NDTの適用によるPanorama-VGM位置推定の 高速化
+  authors: 木田 博貴, 中尾 拓真, 高橋 淳二
+  venue: 第43 回日本ロボット学会学術講演会
+  year: 2025
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 合成画像とYOLOを用いた床上の埃の検出と マッピング
+  authors: 小川 永遠, 高橋 淳二, 吉田 武史
+  venue: 第43 回日本ロボット学会学術講演会
+  year: 2025
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: None
+  authors: 
+  venue: None
+  year: 2025
+  category: international
+  presentation_type: oral
+  award: false
+  language: en
+- title: 建築物３Dモデルと２Dカメラ画像の照合による位置推定
+  authors: 高橋淳二
+  venue: 新技術説明会【オンライン開催】 デバイス・計測・材料 ～豊橋技科大、長岡技科大～
+  year: 2025
+  category: domestic
+  presentation_type: public_discourse
+  award: false
+  language: ja
+- title: None
+  authors: 
+  venue: None
+  year: 2025
+  category: international
+  presentation_type: keynote_oral_presentation
+  award: false
+  language: en
+- title: None
+  authors: 
+  venue: None
+  year: 2025
+  category: international
+  presentation_type: oral
+  award: false
+  language: en
+- title: None
+  authors: 
+  venue: None
+  year: 2025
+  category: international
+  presentation_type: poster
+  award: false
+  language: en
+- title: None
+  authors: 
+  venue: None
+  year: 2025
+  category: international
+  presentation_type: poster
+  award: false
+  language: en
+- title: 位置推定技術VGMとYOLO V8による屋内デジタルツインの提案
+  authors: 小川永遠, 高橋淳二
+  venue: 超異分野学 会2024 豊橋フォーラム
+  year: 2024
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Ceiling-VGM におけるカメラ画角と位置推定精度の関係
+  authors: 中尾拓真, 高橋淳二
+  venue: 超異分野学 会2024 豊橋フォーラム
+  year: 2024
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 屋内走行AMRの省人化・自動化のための屋内デジタルツインの提案
+  authors: 小川永遠, 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表会＆企業交流会
+  year: 2024
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Normal-Distribution-Image を用いたVGMの高速化
+  authors: 中尾拓真, 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表会＆企業交流会
+  year: 2024
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Panorama-VGM を用いた単眼カメラ位置推定によるロボットの長距 離自律走行
+  authors: 中尾拓真, 高橋淳二
+  venue: 第42 回日本ロボット学会学術講演会
+  year: 2024
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 天井梁構造をランドマークマップとする位置推定システムCeiling-VGMの体育館への適用
+  authors: 高橋 淳二, 中尾 拓真, 小川 永遠, 内山 直樹
+  venue: 計測自動制御学会 計測部門スマートセンシングシステム部会 研究発表会
+  year: 2024
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMapを前提とするポテンシャル法による障害物回避
+  authors: DONIDDORJ BAYANJARGAL, 高橋 淳二
+  venue: 日本機械学会ロボティクス・メカトロニクス部門講演会2024
+  year: 2024
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 天井カメラによる物体トラッキングとオドメトリによる自律 移動ロボットの定位システム
+  authors: 板垣光晟, 高橋淳二, 戸高聖人, Bayanjargal Doniddorj
+  venue: 機械学会東海支部第73期総会・講演会
+  year: 2024
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: クラウド型位置推定システム (Universal Map)の構想と最近の成果
+  authors: 高橋淳二
+  venue: 日本機械学会東海支部73期総会・講演会特別企画講演
+  year: 2024
+  category: domestic
+  presentation_type: invited_oral_presentation
+  award: false
+  language: ja
+- title: 円筒パノラマ変換によるUMap の位置推定性能向上
+  authors: 中尾 拓真, 高橋 淳二
+  venue: 第24回計測自動制御学会システムインテグレーション部門講演会
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 仮想レイヤに基づく複数AMR の準リアルタイム非衝突移動経路生成
+  authors: 生嶋 玄明, 高橋 淳二
+  venue: 第24回計測自動制御学会システムインテグレーション部門講演会
+  year: 2023
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 他AMR軌道への進入禁止レイヤの動的設定による複数AMRパスプランニング
+  authors: 生嶋玄明, 高橋淳二
+  venue: 計測自動制御学会中部支部若手研究発表会
+  year: 2023
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 倉庫内のAMR自走化に向けた天井特徴を利用するUMapの開発
+  authors: 中尾拓真, 高橋淳二
+  venue: 計測自動制御学会中部支部若手研究発表会
+  year: 2023
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMap と RFID タグを用いた物品管理システム
+  authors: 小川永遠, 高橋淳二
+  venue: 計測自動制御学会計測部門スマートセンシングシステム部会研究発表会
+  year: 2023
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 参加型センシングによる 3D ランドマークの追加と削除
+  authors: 石河大、高橋淳二
+  venue: 計測自動制御学会計測部門スマートセンシングシステム部会研究発表会
+  year: 2023
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: LiDAR 不得意環境下でのUMap を利用した位置推定補助システムの提案
+  authors: 井手駿太, 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2023
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 仮想センシング画像を学習データとするResNet を用いた位置推定
+  authors: 佐々木友真, 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2023
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 画像検索に基づく定位技術を夜間利用するための移動ロボット動作アルゴリズム
+  authors: 大原功聖, 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2023
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 移動ロボットの小型・軽量化のための視覚情報とオドメトリによる位置推定
+  authors: 戸髙聖人, 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2023
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: UMap の相互類似度評価に基づく建築物の繰り返し構造の定量化
+  authors: 占部俊智, 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2023
+  year: 2023
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 福祉サービス効率化に向けた複数移動体位置共有システム
+  authors: 山下和成, 高橋淳二
+  venue: 第23回計測自動制御学会システムインテグレーション部門講演会
+  year: 2022
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 透視投影モデルに基づいたクエリ派生手法による 定位技術UMapのDB画像削減
+  authors: 安倍 嵩士, 高橋 淳二
+  venue: 第23回計測自動制御学会システムインテグレーション部門講演会
+  year: 2022
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 事前に用意した属性付きDB画像とクエリ画像の意味推論を用いての画像検 索に基づく位置推定
+  authors: 渡瀬 渉太, 高橋 淳二
+  venue: 第23回計測自動制御学会システムインテグレーション部門講演会
+  year: 2022
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: １０ｃｍオーダーで位置が分かるメンテナンスフリークラウド型定位インフラシステム
+  authors: 高橋淳二
+  venue: 知的財産ビジネスマッチング会 「AI．IoTテクノロジーと協働するこれからのビジネス」 産業技術の芽シーズ発表会IN静岡
+  year: 2022
+  category: domestic
+  presentation_type: public_discourse
+  award: false
+  language: ja
+- title: UMap夜間利用のため移動ロボットカメラ露光調整法
+  authors: 大原 功聖, 高橋 淳二, 松﨑 健一郎
+  venue: 計測自動制御学会スマートセンシングシステム部会研究発表会2022
+  year: 2022
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMapの可用性調査ための屋内画像の相互類似度評価法
+  authors: 占部 俊智, 高橋 淳二, 松崎 健一郎
+  venue: 計測自動制御学会スマートセンシングシステム部会研究発表会2022
+  year: 2022
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: LiDAR位置推定のUMapの利用による初期位置設定の自動化
+  authors: 井手 駿太, 高橋 淳二, 松崎 健一郎
+  venue: 計測自動制御学会スマートセンシングシステム部会研究発表会2022
+  year: 2022
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMapクライアントモジュールを用いた障害物体の常時定位と占有地図の自動更新
+  authors: 赤城晃, 高橋 淳二, 余 永
+  venue: 第22回 計測自動制御学会 システムインテグレーション部門講演会
+  year: 2021
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 徘徊者対応のための屋内位置情報共有システム
+  authors: 山下 和也, 高橋 淳二, 余 永
+  venue: SICE 計測部門スマートセンシングシステム部会研究発表会
+  year: 2021
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: LiDAR点群計測に基づくUMapのための効率的な3Dモデル構築
+  authors: 吉原聖人, 高橋淳二, 余永
+  venue: SICE 計測部門スマートセンシングシステム部会研究発表会
+  year: 2021
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: SLAMにおける誘拐・退化問題へのMapの適用の提案
+  authors: 井手 駿太, 高橋 淳二, 余 永
+  venue: SICE 計測部門スマートセンシングシステム部会研究発表会
+  year: 2021
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMapに供する3Dデータ作成におけるCAD・BIM・LiDARの比較検証
+  authors: 中洲賢太郎, 高橋淳二, 柴田晃宏
+  venue: 第61回 日本建築学会九州支部 研究発表会
+  year: 2021
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 異種データ間類似度計算に基づく汎用型全天球画像データベースの構築
+  authors: 平山 遼, 高橋 淳二, 余 永
+  venue: SICE システムインテグレーション部門講演会
+  year: 2020
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 意味特徴の利用による画像検索に基づく位置推定手法の精度向上
+  authors: 森 瑛司, 高橋 淳二, 余 永
+  venue: SICE システムインテグレーション部門講演会
+  year: 2020
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: セマンティックセグメンテーションに基づく線分の属性判定と画像をクエリとする位置推定手法への応用
+  authors: 渡瀬渉太, 高橋淳二, 余永
+  venue: 第37回人間情報学会
+  year: 2020
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UMap におけるオクルージョン除去による精度向上の検討
+  authors: 高橋和太郎, 高橋淳二
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: テクスチャレス環境でのマニュアルキーポイント設定を用いたSfM
+  authors: 二宮佑樹, 高橋淳二, 余永
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 天井画像データベースを用いたロボット台車の位置推定
+  authors: 前田聖宙, 高橋淳二, 余永
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 傾斜設置2次元LiDARの3次元CADマップ内位置推定
+  authors: 山下莉生, 高橋 淳二
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 半自動生成３次元CADマップを利用した位置推定と誤差の検証
+  authors: 坂元利伎, 柴田晃宏, 新村航平, 高橋淳二, 余永
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: スマートフォン話しかけによる気分のロギング
+  authors: 山下 優衣, 小野寺 俊, 田谷 昭仁, 戸辺 義人, 高橋 淳二
+  venue: 計測自動制御学会(SICE)スマートセンシングシステム部会研究発表会
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 勾配膨張類似度演算によるクラウド型位置推定技術の高精度化
+  authors: 川邉誠仁, 高橋淳二, 余永
+  venue: ロボティクス・メカトロニクス講演会
+  year: 2019
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Visual SLAM とクラウド型位置推定システムの併用による誘拐ロボット問題の解決
+  authors: 森瑛司, 高橋淳二, 余永, 柴田晃宏
+  venue: ロボティクス・メカトロニクス講演会
+  year: 2019
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: クラウド型位置推定システムによる複数対象の詳細追跡
+  authors: 白濱幹智, 高橋淳二, 余永, 柴田晃宏
+  venue: ロボティクス・メカトロニクス講演会
+  year: 2019
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 3 次元CAD データが位置推定に及ぼす影響のシミュレーションによる検証
+  authors: 坂元利伎, 柴田晃宏, 高橋淳二
+  venue: 第58 回日本建築学会九州支部研究発表会（計画系）
+  year: 2019
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 効率的な評価実験用の位置情報付き画像データセット作成のための CADマップとスキャンマップの位置合わせ
+  authors: 山下莉生, 高橋淳二, 余永
+  venue: 第19回計測自動制御学会システムインテグレーション部門講演会
+  year: 2018
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 事前マップ誤差が位置推定結果に及ぼす影響のシミュレーションによる検証
+  authors: 新村航平, 高橋淳二, 余永
+  venue: 第19 回計測自動制御学会システムインテグレーション部門講演会
+  year: 2018
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: Universal-Map: クラウド型位置推定インフラストラクチャシステムの提案
+  authors: 高橋淳二, 兼子朋也, 徳永悠希, 花見唯, 戸辺義人
+  venue: 日本機械学会ロボメカ講演会
+  year: 2018
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 速度差を考慮した自転車とスマートフォン端末を用いた路面異常検出
+  authors: 鈴木隆二, 高橋淳二, 戸辺義人
+  venue: 情報処理学会第79回全国大会
+  year: 2017
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 複数台の自律飛行UAVから得られる情報の最大化アルゴリズムの提案
+  authors: 渡辺大貴, 高橋淳二, 戸辺義人
+  venue: 情報処理学会第79回全国大会
+  year: 2017
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 線分情報に基づく位置姿勢推定と3次元マップの更新
+  authors: 兼子朋也, 高橋淳二, 花見唯, 徳永悠希, 戸辺義人
+  venue: 情報処理学会第79回全国大会
+  year: 2017
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 線分マッチングに基づく位置推定アルゴリズムのGPU並列演算による高速化
+  authors: 徳永悠希, 高橋淳二, 兼子朋也, 花見唯, 戸辺義人
+  venue: 情報処理学会研究報告
+  year: 2017
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 事前マップを利用した効率的な位置推定アプリケーションの提案
+  authors: 花見唯, 高橋淳二, 徳永悠希, 兼子朋也, 戸辺義人
+  venue: 第22回電子情報通信学会東京支部学生会研究発表会
+  year: 2017
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 線分情報を用いた自己位置推定と 3 次元マップ更新
+  authors: 兼子朋也, 高橋淳二, 花見唯, 徳永悠希, 戸辺義人
+  venue: 第17回SICE SI部門講演会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: コミュニケーションを通じた物体を特定するための特徴学習の構築
+  authors: 鈴木隆二, 高橋淳二, 戸辺義人
+  venue: 第78回情報処理学会全国大会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 作業主体支援に向けた適切な三人称視点を自律獲得する飛行撮影システムの設計と実装
+  authors: 西川遼, 高橋淳二, 戸辺義人
+  venue: 第78回情報処理学会全国大会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 通信トラヒックを考慮した可動式無線LANアクセスポイントの提案
+  authors: 小林祐斗, 八木 佑侑季, 高橋淳二, 戸辺義人
+  venue: 第78回情報処理学会全国大会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: Wi-Fiビーコン発信動的制御による屋内ナビゲーションの検討
+  authors: 黄キ, 八木佑侑季, 高橋淳二, 戸辺義人
+  venue: 第78回情報処理学会全国大会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: キー入力に基づいた剽窃検知可能なテキストエディタの設計と実装
+  authors: 山崎和也, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: UAVカメラでの被写体撮影情報に基づく直感的制御システムの設計と実装
+  authors: 村山新太郎, 戸辺義人, 高橋淳二
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 複数スマートフォンを用いたミーティング活発度定量化システム
+  authors: 米岡良, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 近接ユーザ間で即時的共有空間を生成するシステムの提案
+  authors: 元岡里穂, 金岡諒, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 壁との衝突音によるボールの速度推定
+  authors: 澤田貴志, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: フォルマント周波数を用いた空間共有グループの作成システムの設計と実装
+  authors: 西井佑太, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: OpenStackによる実プロファイリングに基づく有限資源の動的割り当ての提案
+  authors: 水村直人, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 多視点テンプレートマッチングによる撮影視点の評価と適切な撮影ポイントの自律決定
+  authors: 水野誉士樹, 高橋淳二, 戸辺義人
+  venue: 平成27年度電子情報通信学会東京支部学生会研究発表会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: Webデザインにおける発想支援ツールの提案
+  authors: 三浦一馬, 小川亮二, 村瀬慶祐, 宇佐美格, 高橋淳二, 戸辺義人
+  venue: 平成28年電気学会全国大会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 歩行者ナビゲーションに向けたビーコン発信機による屋内位置測位の研究
+  authors: 八木佑侑季, 高橋淳二, 戸辺義人
+  venue: IEICE ヒューマンプローブ(HPB)研究会
+  year: 2016
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 韻律による感情理解の深部脳活動
+  authors: 北村剛, 片桐祥雅, 高橋淳二, 戸辺義人
+  venue: HCGシンポジウム2015
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 感情認知における監督的注意システム仮説とその検証
+  authors: 北村剛, 片桐祥雅, 高橋淳二, 戸辺義人
+  venue: 第22回人間情報学会講演会
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 後頭部脳波α2律動揺らぎ解析に基づく感情がラベルされた音声に対する同期的深部脳活動
+  authors: 北村剛, 片桐祥雅, 高橋淳二, 戸辺義人
+  venue: 第5回バイオメトリクスと認識・認証(SBRA2015)シンポジウム
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 複数UAV協調センシングにおける階層的カバー率の提案
+  authors: 大野木 優, 尾崎 凌介, テープウィロージャナポン 二ワット, 太田 義勝, 高橋淳二, 戸辺 義人
+  venue: マルチマディア通信と分散処理ワークショップ2020
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 情動的韻律がラベルされた合成音声に対する感情弁別と深部脳活動
+  authors: 北村剛, 片桐祥雅, 高橋淳二, 戸辺義人
+  venue: 第21回人間情報学会講演会
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 携帯端末を用いたミーティングの定量化システムの構築 (ヒューマン情報処理)
+  authors: 宇佐美 格, 王 亜楠, 高橋 淳二
+  venue: 電子情報通信学会技術研究報告 = IEICE technical report : 信学技報
+  year: 2015
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: ひずみゲージを用いた筆跡推定とメッセージ転送への応用
+  authors: 豊住 尚弥, 高橋 淳二, Guillaume LOPEZ
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会
+  year: 2015
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: モーションキャプチャシステムを用いた居合道動作の定量評価―重回帰分析法を用いた居合道動作評価指標の作成―
+  authors: 板東 央晃, 高橋 淳二, ロペズ ギヨーム
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会
+  year: 2015
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 自転車を利用した道路モニタリング―独立成分分析を用いた路面情報の抽出と分析―
+  authors: 小花 祐輔, 高橋 淳二, 狐崎 直文, 戸辺 義人, ロペズ ギヨーム
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会
+  year: 2015
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 単一ウェアラブル表面筋電位センサを用いた 手の動作認識に関する検討
+  authors: 稲垣 淳也, 高橋 淳二, ロペズギヨーム
+  venue: 第16回人間情報学会
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 加速度センサを用いた自転車走行時の路面信号抽出に関する研究
+  authors: 小花 祐輔, 高橋 淳二, 戸辺義人
+  venue: 第16回人間情報学会
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: ペン型入力イタフェースのための筆跡データからのメッセージとコマンドの分離
+  authors: 中里 画, 高橋 淳二, ロペズギヨーム
+  venue: 第16回人間情報学会
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 体表面と服外側の温湿度比較による ネックウェアの効果測定
+  authors: 高橋淳二, 加藤, ロペズギヨーム
+  venue: 第15回人間情報学会発表予稿集
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 自転車走行による路面状態推定の試み
+  authors: 小花 祐輔, 高橋 淳二, 宇佐美 格
+  venue: センシングフォーラム資料
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: ペン型入力インタフェースを用いた筆記作業のみによるメールの送信
+  authors: 高橋淳二, 中里画, 豊住尚弥, ロペズギヨーム
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会
+  year: 2014
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 自転車走行時の路面情報抽出 : 基本検討および実測定 (モバイルネットワークとアプリケーション)
+  authors: 小花 祐輔, 高橋 淳二, 宇佐美 格
+  venue: 電子情報通信学会技術研究報告 = IEICE technical report : 信学技報
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 自転車走行時の路面情報抽出:基本検討および実測定
+  authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸辺 義人, Lopez Guillaume
+  venue: 情報処理学会研究報告. マルチメディア通信と分散処理研究会報告
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 自転車走行時の路面情報抽出 : 基本検討および実測定(モバイルアプリケーション,ユビキタスサービス,モバイル分散クラウド,モバイルアドホックネットワーク,センサネットワーク,モバイルネットワーク及び一般)
+  authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸部 義人, LOPEZ Guillaume
+  venue: 電子情報通信学会技術研究報告. MoNA, モバイルネットワークとアプリケーション
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 自転車走行時の路面情報抽出：基本検討および実測定
+  authors: 小花 祐輔, 高橋 淳二, 宇佐美 格, 狐崎 直文, 戸辺 義人, OPEZ Guillaume
+  venue: 第71回モバイルコンピューティングとユビキタス通信合同研究発表会
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: スマートフォンを用いた自転車走行時の路面信号抽出機構の設計
+  authors: 小花祐輔, 高橋淳二, 狐崎直文, 戸辺義人, GuillaumeLopez
+  venue: 第76回全国大会講演論文集
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 汎用組込みOS向けロボット制御ライブラリの設計
+  authors: 西川遼, 高橋淳二, GuillaumeLopez, 狐崎直文, 戸辺義人
+  venue: 第76回全国大会講演論文集
+  year: 2014
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 部品の精密形状を利用したロボットによる精密組み立て
+  authors: 高橋淳二, 福川智哉, 福田敏男
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会2013
+  year: 2013
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 2A1-V08 SVMを用いた前頸部表面筋電位に基づく舌運動の検出(福祉ロボティクス・メカトロニクス(2))
+  authors: 長谷川 泰久, 末澤 賢, 副島 英明, 高橋 淳二
+  venue: ロボティクス・メカトロニクス講演会講演概要集
+  year: 2012
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 舌運動による生活支援装置のための操作インタフェースの提案
+  authors: 長谷川泰久, 末澤賢, 高橋淳二
+  venue: 日本機械学会ロボティクス・メカトロニクス講演会2011
+  year: 2011
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 2P2-F07 舌運動による生活支援装置のための操作インタフェースの提案(福祉ロボティクス・メカトロニクス(2))
+  authors: 長谷川 泰久, 末澤 賢, 高橋 淳二
+  venue: ロボティクス・メカトロニクス講演会講演概要集
+  year: 2011
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 拮抗筋の生体電位パタンに基づく追加的意図の推定
+  authors: 高橋淳二, 末澤賢, 長谷川泰久, 山海嘉之
+  venue: 第28回日本ロボット学会学術講演会
+  year: 2010
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 複数ロボット概念表象間の写像推定に基づく相互理解
+  authors: 高橋淳二
+  venue: 第１６回創発システム・シンポジウム
+  year: 2010
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 概念表象の異なる認知主体同士によるシンボルコミュニケーションを通した共通理解獲得
+  authors: 高橋淳二, 関山浩介, 福田敏男
+  venue: 第10回計測自動制御学会 システムインテグレーション部門講演会
+  year: 2009
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 概念表象の異なる認知主体同士によるシンボルコミュニケーションを通した共通理解獲得
+  authors: 高橋淳二, 関山浩介, 福田敏男
+  venue: 第27回日本ロボット学会学術講演会
+  year: 2009
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 2A1-B22 通信タイミング制御とトポロジー再構成を行うシンクフリーメッシュセンサネットワーク
+  authors: 高橋 淳二, 山口 卓哉, 関山 浩介, 福田 敏男
+  venue: ロボティクス・メカトロニクス講演会講演概要集
+  year: 2009
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 概念表象の異なる認知主体同士によるシンボルコミュニケーションを通した共通理解獲得
+  authors: 高橋淳二
+  venue: 第5回ECSRA研究会
+  year: 2009
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: シンクフリーメッシュセンサネットワークにおける通信タイミング制御とトポロジー再構成
+  authors: 高橋淳二, 山口卓哉, 関山浩介, 福田敏男
+  venue: 第18回インテリジェント・システム・シンポジウム
+  year: 2008
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: モバイルセンサネットワーク自律形成のための接続優先度に基づくモバイルロボット移動アルゴリズム
+  authors: 高橋淳二, 関山浩介, 福田敏男
+  venue: 第25回日本ロボット学会学術講演会
+  year: 2008
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 1A1-F06 群ロボットを用いたマルチホップテレオペレーションによる実環境観測(群ロボットの協調制御)
+  authors: 高橋 淳二, 関山 浩介, 福田 敏男
+  venue: ロボティクス・メカトロニクス講演会講演概要集
+  year: 2008
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: B-21-19 位相拡散時分割方式における通信負荷の変化に応じた通信時間の自律制御(B-21. アドホックネットワーク,一般セッション)
+  authors: 関山 浩介, 山口 卓哉, 久保 祐樹, 伊達 正晃, 高橋 淳二, 伊藤 肇, 福田 敏男
+  venue: 電子情報通信学会総合大会講演論文集
+  year: 2008
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 自律配置アルゴリズムを用いた群ロボットによるマルチホップテレオペレーション
+  authors: 高橋淳二, 関山浩介, 福田敏男
+  venue: 第20回自律分散システム・シンポジウム
+  year: 2008
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 故障と攻撃に基づくネットワークトポロジー再構成
+  authors: 関山浩介, 荒木 裕久, 高橋淳二
+  venue: 第17回インテリジェント・システム・シンポジウム
+  year: 2007
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: BS-2-1 位相拡散時分割方式による自律分散通信タイミング制御大規模実証実験(BS-2.MACレイヤを中心としたワイヤレスリソース制御技術,シンポジウム)
+  authors: 関山 浩介, 山岡 正明, 久保 祐樹, 伊達 正晃, 高橋 淳二, 福田 敏男
+  venue: 電子情報通信学会総合大会講演論文集
+  year: 2007
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 2P2-A35 機械的入力に適したユビキタス発電デバイスの機構設計と最適化
+  authors: 福田 敏男, 高橋 淳二, 新井 史人, 元尾 幸平, 糸魚川 貢一, 田中 賢次
+  venue: ロボティクス・メカトロニクス講演会講演概要集
+  year: 2006
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: ユビキタス発電デバイスの機構設計と最適化
+  authors: 新井史人, 高橋淳二, 元尾幸平, 福田敏男, 糸魚川貢一
+  venue: 第23回日本ロボット学会学術講演会
+  year: 2005
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
