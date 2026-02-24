@@ -28,7 +28,7 @@ permalink: /publications/
 
 {% if journals.size > 0 %}
 <h4>Journal Papers</h4>
-<ul class="publication-list">
+<ul class="publication-list journal">
 {% for pub in journals %}
 <li class="publication-item">
   {{ pub.authors }},
@@ -45,7 +45,7 @@ permalink: /publications/
 
 {% if internationals.size > 0 %}
 <h4>International Conference Papers</h4>
-<ul class="publication-list">
+<ul class="publication-list international">
 {% for pub in internationals %}
 <li class="publication-item">
   {{ pub.authors }},
@@ -63,7 +63,7 @@ permalink: /publications/
 {% if domestics.size > 0 %}
 ### Domestic Conference Papers
 <h4>Domestic Conference Papers</h4>
-<ul class="publication-list">
+<ul class="publication-list domestic">
 {% for pub in domestics %}
 <li class="publication-item">
   {{ pub.authors }},

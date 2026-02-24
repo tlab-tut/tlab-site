@@ -109,3 +109,32 @@
   font-size: 0.9rem;
   color: #555;
 }
+
+/* ===== Publication Hierarchy ===== */
+
+.publication-list.journal .publication-item {
+  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+}
+
+.publication-list.journal .pub-venue {
+  font-weight: 600;
+}
+
+.publication-list.international .publication-item {
+  font-size: 1rem;
+}
+
+.publication-list.domestic .publication-item {
+  font-size: 0.93rem;
+  color: #444;
+}
+
+/* セクション見出し調整 */
+
+.accordion h4 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: #2c3e50;
+}
