@@ -4,7 +4,7 @@ title: 発表
 permalink: /presentations/
 ---
 
-{% assign pres = site.data.publications
+{% assign pres = site.data.presentations
    | where_exp: "item", "item.type == 'international_short' or item.type == 'domestic'" 
    | sort: "year" | reverse %}
 
