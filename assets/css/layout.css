@@ -46,9 +46,26 @@
   color: #777;
 }
 
+/* ===== NAV TOGGLE (PCでは非表示) ===== */
+
+.nav-trigger {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 600px) {
+  
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+
   .site-nav {
     position: absolute;
     top: 9px;
