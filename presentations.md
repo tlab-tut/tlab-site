@@ -5,7 +5,6 @@ permalink: /presentations/
 ---
 
 {% assign pres = site.data.presentations
-   | where_exp: "item", "item.type == 'international_short' or item.type == 'domestic'" 
    | sort: "year" | reverse %}
 
 {% assign years = pres | map: "year" | uniq %}
@@ -21,21 +20,19 @@ permalink: /presentations/
 <summary><strong>{{ y }}</strong></summary>
 
 {% assign yearly = pres | where: "year", y %}
-{% assign internationals = yearly | where: "type", "international_short" %}
-{% assign domestics = yearly | where: "type", "domestic" %}
+{% assign internationals = yearly | where: "category", "international" %}
+{% assign domestics = yearly | where: "category", "domestic" %}
 
 {% if internationals.size > 0 %}
-<h4>International Conference Papers (Short)</h4>
+<h4>International Presentations</h4>
 <ul>
 {% for pub in internationals %}
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”
   <strong>{{ pub.venue }}</strong>,
-  {% if pub.pages %}pp.{{ pub.pages }}, {% endif %}{{ pub.year }}.
-  {% if pub.doi %}
-    <br><a href="{{ pub.doi }}" target="_blank">DOI</a>
-  {% endif %}
+  {% if pub.presentation_type %} ({{ pub.presentation_type }}){% endif %}
+  {{ pub.year }}.
 </li>
 {% endfor %}
 </ul>
