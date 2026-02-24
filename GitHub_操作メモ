@@ -6,6 +6,8 @@ git add .
 git commit -m "Update lab website contents"
 git push
 
+git checkout feature/junji
+
 
 ---- この方法は、「失敗原因：eventmachine 1.2.7 の macOS SDK 非互換」
 のためにうまくいかない-----> ローカルでのビルドは諦める

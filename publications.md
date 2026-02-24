@@ -27,34 +27,55 @@ permalink: /publications/
 {% assign domestics = yearly | where: "type", "domestic" %}
 
 {% if journals.size > 0 %}
-### Journal Papers
+<h4>Journal Papers</h4>
+<ul class="publication-list">
 {% for pub in journals %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**,  
-  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}.  
-  {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if internationals.size > 0 %}
-### International Conference Papers
-{% for pub in internationals %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**,  
-  {% if pub.pages %}pp.{{ pub.pages }}.{% endif %}  
-  {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
+<h4>International Conference Papers</h4>
+<ul class="publication-list">
+{% for pub in Internationals %}
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if domestics.size > 0 %}
 ### Domestic Conference Papers
-{% for pub in domestics %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**.
+<h4>Domestic Conference Papers</h4>
+<ul class="publication-list">
+{% for pub in Domestics %}
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 </details>
