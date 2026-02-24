@@ -1,6 +1,6 @@
 ---
 layout: page
-title: システム工学研究室（高橋G）
+title: システム工学研究室（高橋Gr）
 show_title: false
 ---
 

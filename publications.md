@@ -11,7 +11,14 @@ permalink: /publications/
 {% assign years = pubs | map: "year" | uniq %}
 
 {% for y in years %}
-## {{ y }}
+
+{% if forloop.first %}
+<details class="accordion" open>
+{% else %}
+<details class="accordion">
+{% endif %}
+
+<summary><strong>{{ y }}</strong></summary>
 
 {% assign yearly = pubs | where: "year", y %}
 
@@ -20,34 +27,57 @@ permalink: /publications/
 {% assign domestics = yearly | where: "type", "domestic" %}
 
 {% if journals.size > 0 %}
-### Journal Papers
+<h4>Journal Papers</h4>
+<ul class="publication-list journal">
 {% for pub in journals %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**,  
-  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}.  
-  {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if internationals.size > 0 %}
-### International Conference Papers
+<h4>International Conference Papers</h4>
+<ul class="publication-list international">
 {% for pub in internationals %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**,  
-  {% if pub.pages %}pp.{{ pub.pages }}.{% endif %}  
-  {% if pub.doi %}DOI: {{ pub.doi }}{% endif %}
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
 
 {% if domestics.size > 0 %}
 ### Domestic Conference Papers
+<h4>Domestic Conference Papers</h4>
+<ul class="publication-list domestic">
 {% for pub in domestics %}
-- {{ pub.authors }},  
-  "{{ pub.title }},"  
-  **{{ pub.venue }}**.
+<li class="publication-item">
+  {{ pub.authors }},
+  “{{ pub.title }},”
+  <strong>{{ pub.venue }}</strong>,
+  {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
+  {% if pub.doi %}
+  <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
+  {% endif %}
+</li>
 {% endfor %}
+</ul>
 {% endif %}
+
+</details>
 
 {% endfor %}
