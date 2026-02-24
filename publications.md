@@ -46,7 +46,7 @@ permalink: /publications/
 {% if internationals.size > 0 %}
 <h4>International Conference Papers</h4>
 <ul class="publication-list">
-{% for pub in Internationals %}
+{% for pub in internationals %}
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”
@@ -64,7 +64,7 @@ permalink: /publications/
 ### Domestic Conference Papers
 <h4>Domestic Conference Papers</h4>
 <ul class="publication-list">
-{% for pub in Domestics %}
+{% for pub in domestics %}
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”

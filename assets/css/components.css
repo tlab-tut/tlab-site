@@ -87,3 +87,25 @@
 .tag.tech { background-color: #e3f0ff; color: #0b4fa2; }
 .tag.industry { background-color: #e6f6ea; color: #1b7a3a; }
 .tag.life { background-color: #fff1e6; color: #b55300; }
+
+
+/* ===== Publications ===== */
+
+.publication-list {
+  margin: 0.5rem 0 1.2rem 1.2rem;
+  padding-left: 0;
+}
+
+.publication-item {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.publication-item strong {
+  font-weight: 600;
+}
+
+.doi {
+  font-size: 0.9rem;
+  color: #555;
+}
