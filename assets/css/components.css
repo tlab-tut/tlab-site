@@ -26,7 +26,7 @@
 }
 
 .accordion[open] > summary::before {
-  transform: rotate(90deg);
+  content: "▼";
 }
 
 /* ===== RESEARCH CARD ===== */
