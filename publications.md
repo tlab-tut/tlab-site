@@ -11,7 +11,6 @@ permalink: /publications/
 {% assign years = pubs | map: "year" | uniq %}
 
 {% for y in years %}
-<<<<<<< feature/junji
 
 {% if forloop.first %}
 <details class="accordion" open>
@@ -20,9 +19,6 @@ permalink: /publications/
 {% endif %}
 
 <summary><strong>{{ y }}</strong></summary>
-=======
-## {{ y }}
->>>>>>> main
 
 {% assign yearly = pubs | where: "year", y %}
 
