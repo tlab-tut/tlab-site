@@ -32,10 +32,6 @@
 /* ===== RESEARCH CARD ===== */
 
 
-/* =========================
-   RESEARCH CARD
-   ========================= */
-
 .research-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -75,8 +71,6 @@
 .research-card .tags {
   margin: 0 1rem 1rem;
 }
-
-
 
 
 /* ===== TAG ===== */

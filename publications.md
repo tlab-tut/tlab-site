@@ -4,9 +4,9 @@
 {% for y in years %}
 
 {% if forloop.first %}
-<details open>
+<details class="accordion" open>
 {% else %}
-<details>
+<details class="accordion">
 {% endif %}
 
 <summary><strong>{{ y }}</strong></summary>
