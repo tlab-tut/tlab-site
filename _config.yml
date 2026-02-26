@@ -42,3 +42,7 @@ lab:
 
 github_username: "tlab-tut"
 google_analytics: ""
+
+collections:
+  members:
+    output: true

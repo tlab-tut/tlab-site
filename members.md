@@ -4,6 +4,46 @@ title: メンバー
 permalink: /members/
 ---
 
+{% assign roles = "faculty,postdoc,doctoral,master,undergrad,alumni" | split: "," %}
+
+{% for r in roles %}
+{% assign group = site.data.members | where: "role", r %}
+{% if group.size > 0 %}
+
+<h2>
+{% case r %}
+{% when "faculty" %}Faculty
+{% when "postdoc" %}Postdoctoral Researcher
+{% when "doctoral" %}Doctoral Students
+{% when "master" %}Master Students
+{% when "undergrad" %}Undergraduate Students
+{% when "alumni" %}Alumni
+{% endcase %}
+</h2>
+
+<div class="member-grid">
+{% for m in group %}
+  <div class="member-card">
+    <a href="{{ '/members/' | append: m.id | relative_url }}">
+      <img src="{{ m.image | relative_url }}">
+      <h3>{{ m.name_ja }}</h3>
+    </a>
+    {% if m.position %}<p>{{ m.position }}</p>{% endif %}
+    {% if m.year %}<p>{{ m.year }}</p>{% endif %}
+  </div>
+{% endfor %}
+</div>
+
+{% endif %}
+{% endfor %}
+
+
+<!-- ---
+layout: page
+title: メンバー
+permalink: /members/
+---
+
 ## 教員
 - **高橋 淳二（准教授）** — ロボティクス、屋内位置推定、CPS、精密自動組み立て、参加型センシング
 
@@ -23,4 +63,4 @@ permalink: /members/
 - B4 Stanley Susantyo — object-VGM
 
 ## 卒業生・修了生
-- 卒業年度・進路などを記載できます。
+- 卒業年度・進路などを記載できます。 -->

@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<div class="member-profile">
+  <img src="{{ page.image | relative_url }}" class="profile-img">
+
+  <h1>{{ page.name_ja }}</h1>
+  <p>{{ page.position }} {{ page.year }}</p>
+
+  {% if page.research_tags %}
+  <div class="tags">
+    {% for tag in page.research_tags %}
+      <span class="tag tech">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="bio">
+    {{ page.bio_ja }}
+  </div>
+
+  {% if page.scholar %}
+    <p><a href="{{ page.scholar }}">Google Scholar</a></p>
+  {% endif %}
+</div>
