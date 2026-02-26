@@ -26,7 +26,7 @@ researchmap: https://researchmap.jp/XXXX
 
 移動ロボットの自己位置推定および環境理解技術を基盤として、
 生活空間・工場・図書館等における自律移動システムの高度化を研究している。
-特に Panorama Visual-Geometric-Matching (VGM) による低コスト高精度位置推定、
+特に Visual-Geometric-Matching (VGM) による低コスト高精度位置推定、
 ならびに生活空間デジタルツインの構築を中心テーマとする。(by chappy)
 
 ## 研究キーワード

@@ -25,10 +25,6 @@ research_tags:
 
 - Custordial robotics
 
-## これまでの発表
-
-- 2025 IEEE ICMA
-- 2025 IEEE/SICE SII
 
 ## 趣味・関心
 - ロボット競技

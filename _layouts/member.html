@@ -33,7 +33,7 @@ layout: page
           <li class="publication-item">
             {{ pub.authors }},
             “{{ pub.title }},”
-            <strong>{{ pub.venue }}</strong>,
+            {{ pub.venue }},
             {{ pub.year }}.
             {% if pub.doi %}
               <a href="{{ pub.doi }}" target="_blank">[DOI]</a>
@@ -63,7 +63,7 @@ layout: page
           <li class="publication-item">
             {{ pres.authors }},
             “{{ pres.title }},”
-            <strong>{{ pres.venue }}</strong>,
+            {{ pres.venue }},
             {{ pres.year }}.
             {% if pres.pages %}
               pp.{{ pres.pages }}.
