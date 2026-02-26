@@ -53,7 +53,7 @@
 }
 
 .trigger {
-  display: none;
+  display: block;
 }
 
 .menu-icon {
@@ -82,6 +82,14 @@
   .site-nav .page-link {
     display: block;
     padding: 10px 20px;
+  }
+
+  .trigger {
+    display: none;
+  }
+
+  .nav-trigger:checked ~ .site-nav .trigger {
+    display: block;
   }
   
 }
