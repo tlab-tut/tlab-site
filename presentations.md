@@ -30,7 +30,7 @@ permalink: /presentations/
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”
-  <strong>{{ pub.venue }}</strong>,
+  {{ pub.venue }},
   {% if pub.presentation_type %} ({{ pub.presentation_type }}){% endif %}
   {{ pub.year }}.
 </li>
@@ -45,7 +45,7 @@ permalink: /presentations/
 <li class="publication-item">
   {{ pub.authors }},
   「{{ pub.title }}」,
-  <strong>{{ pub.venue }}</strong>,
+  {{ pub.venue }},
   {{ pub.year }}.
 </li>
 {% endfor %}

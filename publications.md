@@ -50,7 +50,7 @@ permalink: /publications/
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”
-  <strong>{{ pub.venue }}</strong>,
+  {{ pub.venue }},
   {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
   {% if pub.doi %}
   <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
@@ -68,7 +68,7 @@ permalink: /publications/
 <li class="publication-item">
   {{ pub.authors }},
   “{{ pub.title }},”
-  <strong>{{ pub.venue }}</strong>,
+  {{ pub.venue }},
   {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.number %}({{ pub.number }}){% endif %}{% if pub.pages %}, pp.{{ pub.pages }}{% endif %}, {{ pub.year }}.
   {% if pub.doi %}
   <br><span class="doi">DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a></span>
