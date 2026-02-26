@@ -4,6 +4,7 @@ title: 小川 永遠
 permalink: /members/ogawa/
 id: ogawa
 name_ja: 小川 永遠
+name_en: Towa Ogawa
 position: M2
 author_key:
   - Ogawa
