@@ -21,32 +21,65 @@ layout: page
   </div>
 
   {% if page.author_key %}
-<div class="section">
-  <h2>Publications</h2>
+  <div class="section">
+    <h2>Publications</h2>
 
-  {% assign my_pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign my_pubs = site.data.publications | sort: "year" | reverse %}
 
-  <ul>
-  {% for pub in my_pubs %}
-    {% for key in page.author_key %}
-      {% if pub.authors contains key %}
-        <li class="publication-item">
-          {{ pub.authors }},
-          “{{ pub.title }},”
-          <strong>{{ pub.venue }}</strong>,
-          {{ pub.year }}.
-          {% if pub.doi %}
-            <a href="{{ pub.doi }}" target="_blank">[DOI]</a>
-          {% endif %}
-        </li>
-        {% break %}
-      {% endif %}
+    <ul>
+    {% for pub in my_pubs %}
+      {% for key in page.author_key %}
+        {% if pub.authors contains key %}
+          <li class="publication-item">
+            {{ pub.authors }},
+            “{{ pub.title }},”
+            <strong>{{ pub.venue }}</strong>,
+            {{ pub.year }}.
+            {% if pub.doi %}
+              <a href="{{ pub.doi }}" target="_blank">[DOI]</a>
+            {% endif %}
+          </li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-  </ul>
+    </ul>
 
-</div>
-{% endif %}
+  </div>
+  {% endif %}
+
+  {% if page.author_key %}
+  <div class="section">
+    <h2>Presentations</h2>
+
+    {% assign pres_sorted = site.data.presentations | sort: "year" | reverse %}
+
+    <ul>
+    {% for pres in pres_sorted %}
+      {% assign authors_down = pres.authors | downcase %}
+      {% for key in page.author_key %}
+        {% assign key_down = key | downcase %}
+        {% if authors_down contains key_down %}
+          <li class="publication-item">
+            {{ pres.authors }},
+            “{{ pres.title }},”
+            <strong>{{ pres.venue }}</strong>,
+            {{ pres.year }}.
+            {% if pres.pages %}
+              pp.{{ pres.pages }}.
+            {% endif %}
+            {% if pres.doi %}
+              <a href="{{ pres.doi }}" target="_blank">[DOI]</a>
+            {% endif %}
+          </li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+
+  </div>
+  {% endif %}
 
   {% if page.scholar %}
     <p><a href="{{ page.scholar }}">Google Scholar</a></p>
