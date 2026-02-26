@@ -138,3 +138,75 @@
   font-size: 1rem;
   color: #2c3e50;
 }
+
+
+/* =========================
+   Member Grid
+   ========================= */
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 1.5rem;
+}
+
+.member-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 0.9rem;
+  text-align: center;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 14px rgba(0,0,0,0.07);
+}
+
+.member-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.6rem;
+}
+
+.member-card h3 {
+  margin: 0.3rem 0 0;
+  font-size: 0.98rem;
+}
+
+.member-card p {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.15rem 0;
+}
+
+/* =========================
+   Member Profile Page
+   ========================= */
+
+.member-profile {
+  max-width: 760px;
+  margin: 2rem auto;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+/* =========================
+   Award Highlight
+   ========================= */
+
+.presentation-item.award {
+  font-weight: 600;
+  color: #b00020;
+}

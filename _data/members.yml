@@ -1,0 +1,29 @@
+- id: takahashi
+  name_ja: 高橋 淳二
+  name_en: Junji Takahashi
+  role: faculty          # faculty / postdoc / doctoral / master / undergrad / alumni
+  position: 准教授
+  email: takahashi@me.tut.ac.jp
+  image: /assets/images/members/takahashi.jpg
+  research_tags:
+    - Visual-Geometric-Matching
+    - AMR
+    - Digital Twin
+  scholar: https://scholar.google.com/xxxxx
+  researchmap: https://researchmap.jp/jtakahashi
+  bio_ja: >
+    モバイルロボット、視覚位置推定、CPSを活用した研究に従事。
+  bio_en: >
+    Research on mobile robotics, visual localization, and CPS-based clean management systems.
+
+- id: ogawa
+  name_ja: 小川 永遠
+  name_en: Towa Ogawa
+  role: master
+  year: M2
+  image: /assets/images/members/ogawa.jpg
+  research_tags:
+    - Smart living
+    - AMR Navigation
+  bio_ja: >
+    施設カストーディアルのための清潔度モニタリングの研究に従事。
