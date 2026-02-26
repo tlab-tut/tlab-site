@@ -52,6 +52,10 @@
   display: none;
 }
 
+.trigger {
+  display: none;
+}
+
 .menu-icon {
   display: none;
 }
