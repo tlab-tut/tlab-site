@@ -26,6 +26,9 @@ research_tags:
 - Custordial robotics
 
 
+## 略歴
+- 香川高専
+
 ## 趣味・関心
 - ロボット競技
 - プログラミング
