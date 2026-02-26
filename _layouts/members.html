@@ -20,6 +20,43 @@ layout: page
     {{ page.bio_ja }}
   </div>
 
+  {% if page.author_key %}
+<div class="section">
+  <h2>Publications</h2>
+
+  {% assign my_pubs = "" | split: "" %}
+
+  {% for pub in site.data.publications %}
+    {% for key in page.author_key %}
+      {% if pub.authors contains key %}
+        {% assign my_pubs = my_pubs | push: pub %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign my_pubs = my_pubs | sort: "year" | reverse %}
+
+  {% if my_pubs.size > 0 %}
+  <ul>
+    {% for pub in my_pubs %}
+    <li class="publication-item">
+      {{ pub.authors }},
+      “{{ pub.title }},”
+      <strong>{{ pub.venue }}</strong>,
+      {{ pub.year }}.
+      {% if pub.doi %}
+        <a href="{{ pub.doi }}" target="_blank">[DOI]</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>No publications yet.</p>
+  {% endif %}
+</div>
+{% endif %}
+
   {% if page.scholar %}
     <p><a href="{{ page.scholar }}">Google Scholar</a></p>
   {% endif %}
