@@ -1,6 +1,8 @@
 ---
 layout: member
 title: 小川 永遠
+role: master
+order: 1
 permalink: /members/ogawa/
 id: ogawa
 name_ja: 小川 永遠
@@ -18,8 +20,7 @@ research_tags:
 ---
 
 ## 研究テーマ
-
-
+施設カストーディアルのための清潔度モニタリングの研究に従事。
 
 ## 研究キーワード
 

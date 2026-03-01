@@ -4,11 +4,13 @@ title: メンバー
 permalink: /members/
 ---
 
+{% assign members = site.pages | where: "layout", "member" %}
+
 {% assign roles = "faculty,postdoc,doctoral,master,undergrad,alumni" | split: "," %}
 
 {% for r in roles %}
-{% assign group = site.data.members | where: "role", r %}
-{% if group.size > 0 %}
+  {% assign group = members | where: "role", r | sort: "order" %}
+  {% if group.size > 0 %}
 
 <h2>
 {% case r %}
@@ -22,19 +24,18 @@ permalink: /members/
 </h2>
 
 <div class="member-grid">
-{% for m in group %}
+  {% for m in group %}
   <div class="member-card">
-    <a href="{{ '/members/' | append: m.id | relative_url }}">
+    <a href="{{ m.url | relative_url }}">
       <img src="{{ m.image | relative_url }}">
       <h3>{{ m.name_ja }}</h3>
     </a>
     {% if m.position %}<p>{{ m.position }}</p>{% endif %}
-    {% if m.year %}<p>{{ m.year }}</p>{% endif %}
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
-{% endif %}
+  {% endif %}
 {% endfor %}
 
 

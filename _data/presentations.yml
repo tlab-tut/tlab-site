@@ -118,15 +118,7 @@
   presentation_type: oral
   award: false
   language: ja
-- title: None
-  authors: 
-  venue: None
-  year: 2025
-  category: international
-  presentation_type: oral
-  award: false
-  language: en
-- title: 建築物３Dモデルと２Dカメラ画像の照合による位置推定
+- title: 建築物3Dモデルと2Dカメラ画像の照合による位置推定
   authors: 高橋淳二
   venue: 新技術説明会【オンライン開催】 デバイス・計測・材料 ～豊橋技科大、長岡技科大～
   year: 2025
@@ -134,33 +126,25 @@
   presentation_type: public_discourse
   award: false
   language: ja
-- title: None
-  authors: 
-  venue: None
+- title: Accurate and Cost-Scalable Visual-Geometric Matching for indoor IoT services 
+  authors: Junji Takahashi
+  venue: The 14th International Workshop on the Reliability of Intelligent Environments (WoRIE 2025)
   year: 2025
   category: international
   presentation_type: keynote_oral_presentation
   award: false
   language: en
-- title: None
-  authors: 
-  venue: None
-  year: 2025
-  category: international
-  presentation_type: oral
-  award: false
-  language: en
-- title: None
-  authors: 
-  venue: None
+- title: Digital Twin for Living Space based on an Autonomous Mobile Robot with Visual-Geometric-Matching and YOLO V8 
+  authors: Towa Ogawa, Takuma Nakao, Junji Takahashi
+  venue: IEEE/SICE International Symposium on System Integrations (SII 2025) Late-breaking report
   year: 2025
   category: international
   presentation_type: poster
   award: false
   language: en
-- title: None
-  authors: 
-  venue: None
+- title: Drift correction of Visual-Inertial Odometry using Visual- Geometric-Matching
+  authors: Takuma Nakao, Junji Takahashi
+  venue: IEEE/SICE International Symposium on System Integrations (SII 2025) Late-breaking report
   year: 2025
   category: international
   presentation_type: poster
