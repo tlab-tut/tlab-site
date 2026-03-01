@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 森川　倭
-role: undergad
+role: undergrad
 order: 32
 permalink: /members/morikawa/
 id: morikawa
@@ -16,7 +16,7 @@ affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_domain: tut.jp
 image: /assets/images/members/morikawa.jpg
 research_tags:
-  - autonomous/teleoperation
+  - autonomous-teleoperation
 ---
 
 ## 研究テーマ
