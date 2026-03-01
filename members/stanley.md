@@ -2,6 +2,7 @@
 layout: member
 title: STANLEY SUSANTYO
 role: undergrad
+order: 33
 permalink: /members/stanley/
 id: stanley
 name_ja: ステンリー
@@ -20,13 +21,9 @@ research_tags:
 
 ## 研究テーマ
 
-
 ## 研究キーワード
-- 
-
 
 ## 略歴
 - Sutomo 1 Media私立高等学校
 
 ## 趣味・関心
-- 

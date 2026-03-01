@@ -9,7 +9,7 @@ permalink: /members/
 {% assign roles = "faculty,postdoc,doctoral,master,undergrad,alumni" | split: "," %}
 
 {% for r in roles %}
-  {% assign group = members | where: "role", r | sort: "name_ja" %}
+  {% assign group = members | where: "role", r | sort: "order" %}
   {% if group.size > 0 %}
 
 <h2>

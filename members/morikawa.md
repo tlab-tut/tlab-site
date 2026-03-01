@@ -2,6 +2,7 @@
 layout: member
 title: 森川　倭
 role: undergad
+order: 32
 permalink: /members/morikawa/
 id: morikawa
 name_ja: 森川　倭

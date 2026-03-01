@@ -2,6 +2,7 @@
 layout: member
 title: 中馬　豪斗
 role: master
+order: 2
 permalink: /members/chuman/
 id: chuman
 name_ja: 中馬　豪斗

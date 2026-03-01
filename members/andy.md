@@ -2,6 +2,7 @@
 layout: member
 title: ANDY WILLIAM
 role: master
+order: 24
 permalink: /members/andy/
 id: andy
 name_ja: アンディー

@@ -2,6 +2,7 @@
 layout: member
 title: 日野　綾瀬
 role: undergrad
+order: 31
 permalink: /members/hino/
 id: hino
 name_ja: 日野　綾瀬
@@ -22,7 +23,6 @@ research_tags:
 
 
 ## 研究キーワード
-- 
 
 
 ## 略歴

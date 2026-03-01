@@ -2,6 +2,7 @@
 layout: member
 title: 石河　大
 role: master
+order: 4
 permalink: /members/ishiko/
 id: ishiko
 name_ja: 石河　大

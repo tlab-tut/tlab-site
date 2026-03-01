@@ -2,6 +2,7 @@
 layout: member
 title: 小西　洸生
 role: master
+order: 22
 permalink: /members/konishi/
 id: konishi
 name_ja: 小西　洸生
