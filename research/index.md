@@ -28,7 +28,7 @@ permalink: /research/
   {% endif %}
 
   <!-- vgm_core -->
-  {% assign ready_vgm = false %}
+  {% assign ready_vgm = true %}
   {% if ready_vgm %}
   <a href="{{ '/research/vgm_core/' | relative_url }}" class="research-card-link">
   {% endif %}
