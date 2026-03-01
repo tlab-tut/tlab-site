@@ -34,6 +34,16 @@ nav_order: 1
 
 ## 3. Achievements（成果）
 
+<div class="youtube-wrapper">
+  <iframe 
+    src="https://youtu.be/Xupyi6MbwEs"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
 ![Achievements](/assets/images/research/vgm_core/achievement.jpg)
 
 - 代表論文（→ 業績ページ）  
