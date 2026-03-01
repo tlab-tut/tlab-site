@@ -36,7 +36,7 @@ nav_order: 1
 
 <div class="youtube-wrapper">
   <iframe 
-    src="https://youtu.com/embed/Xupyi6MbwEs"
+    src="https://www.youtube.com/embed/Xupyi6MbwEs"
     title="YouTube video"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
