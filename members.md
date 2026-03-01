@@ -4,6 +4,8 @@ title: メンバー
 permalink: /members/
 ---
 
+{% assign members = site.pages | where: "layout", "member" %}
+
 {% assign roles = "faculty,postdoc,doctoral,master,undergrad,alumni" | split: "," %}
 
 {% for r in roles %}

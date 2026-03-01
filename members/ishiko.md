@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 石河　大
+role: master
 permalink: /members/ishiko/
 id: ishiko
 name_ja: 石河　大

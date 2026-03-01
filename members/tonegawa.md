@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 利根川　涼
+role: master
 permalink: /members/tonegawa/
 id: tonegawa
 name_ja: 利根川　涼

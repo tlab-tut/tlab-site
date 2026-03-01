@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 日野　綾瀬
+role: undergrad
 permalink: /members/hino/
 id: hino
 name_ja: 日野　綾瀬

@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 高橋 淳二
+role: faculty
 permalink: /members/takahashi/
 name_ja: 高橋 淳二
 name_en: Junji Takahashi

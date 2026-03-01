@@ -1,6 +1,7 @@
 ---
 layout: member
 title: STANLEY SUSANTYO
+role: undergrad
 permalink: /members/konishi/
 id: konishi
 name_ja: ステンリー

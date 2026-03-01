@@ -1,6 +1,7 @@
 ---
 layout: member
 title: ANDY WILLIAM
+role: master
 permalink: /members/tonegawa/
 id: tonegawa
 name_ja: アンディー

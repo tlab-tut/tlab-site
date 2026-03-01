@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 小川 永遠
+role: master
 permalink: /members/ogawa/
 id: ogawa
 name_ja: 小川 永遠

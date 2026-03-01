@@ -1,6 +1,7 @@
 ---
 layout: member
 title: 木田　博貴
+role: master
 permalink: /members/kita/
 id: kita
 name_ja: 木田　博貴

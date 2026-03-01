@@ -1,6 +1,7 @@
 ---
 layout: member
 title: DONIDDORJ BAYANJARGAL
+role: master
 permalink: /members/doniddorj/
 id: doniddorj
 name_ja: バイナー
