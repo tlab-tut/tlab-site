@@ -20,7 +20,6 @@ research_tags:
 ## 研究テーマ
 
 
-
 ## 研究キーワード
 
 - Custordial robotics
