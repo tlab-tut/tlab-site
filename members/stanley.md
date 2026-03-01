@@ -2,8 +2,8 @@
 layout: member
 title: STANLEY SUSANTYO
 role: undergrad
-permalink: /members/konishi/
-id: konishi
+permalink: /members/stanley/
+id: stanley
 name_ja: ステンリー
 name_en: SUSANTYO STANLEY
 position: B4

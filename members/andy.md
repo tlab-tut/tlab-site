@@ -2,8 +2,8 @@
 layout: member
 title: ANDY WILLIAM
 role: master
-permalink: /members/tonegawa/
-id: tonegawa
+permalink: /members/andy/
+id: andy
 name_ja: アンディー
 name_en: WILLIAM　ANDY
 position: M1
