@@ -5,7 +5,7 @@ role: master
 order: 3
 permalink: /members/doniddorj/
 id: doniddorj
-gallery_count: 4
+gallery_count: 1
 name_ja: バイナー
 name_en: BAYANJARGAL DONIDDORJ
 position: M2

@@ -5,6 +5,7 @@ role: undergrad
 order: 32
 permalink: /members/morikawa/
 id: morikawa
+gallery_count: 1
 name_ja: 森川　倭
 name_en: Yamato MORIKAWA
 position: B4

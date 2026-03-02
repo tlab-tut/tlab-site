@@ -5,7 +5,7 @@ role: master
 order: 4
 permalink: /members/ishiko/
 id: ishiko
-gallery_count: 4
+gallery_count: 1
 name_ja: 石河　大
 name_en: Hajime ISHIKO
 position: M2

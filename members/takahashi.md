@@ -5,7 +5,7 @@ role: faculty
 order: 0
 permalink: /members/takahashi/
 id: takahashi
-gallery_count: 4
+gallery_count: 2
 name_ja: 高橋 淳二
 name_en: Junji Takahashi
 position: 准教授

@@ -5,6 +5,7 @@ role: undergrad
 order: 31
 permalink: /members/hino/
 id: hino
+gallery_count: 1
 name_ja: 日野　綾瀬
 name_en: Ayase HINO
 position: B4

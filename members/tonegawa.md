@@ -5,7 +5,7 @@ role: master
 order: 23
 permalink: /members/tonegawa/
 id: tonegawa
-gallery_count: 4
+gallery_count: 1
 name_ja: 利根川　涼
 name_en: BAYANJARGAL DONIDDORJ
 position: M1
@@ -21,15 +21,19 @@ research_tags:
 ---
 
 ## 研究テーマ
-
-
+- Optimized-VGMによるドリフトフリー６DoF位置推定
 
 ## 研究キーワード
-- 
+- Direct Edge Alignment, 
+- Visual Inertia Odometry
+- Unmanned Aerial Vehicle
 
 
 ## 略歴
-- 旭川高専
+- 旭川工業高等専門学校
 
 ## 趣味・関心
-- 
+- ドローン製作
+- 3Dプリンタ
+- 野球観戦
+- スキー

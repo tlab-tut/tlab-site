@@ -5,6 +5,7 @@ role: master
 order: 2
 permalink: /members/chuman/
 id: chuman
+gallery_count: 1
 name_ja: 中馬　豪斗
 name_en: Taketo CHUMAN
 position: M2

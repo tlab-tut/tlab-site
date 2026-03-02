@@ -5,6 +5,7 @@ role: undergrad
 order: 33
 permalink: /members/stanley/
 id: stanley
+gallery_count: 1
 name_ja: ステンリー
 name_en: SUSANTYO STANLEY
 position: B4

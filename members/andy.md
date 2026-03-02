@@ -5,6 +5,7 @@ role: master
 order: 24
 permalink: /members/andy/
 id: andy
+gallery_count: 1
 name_ja: アンディー
 name_en: WILLIAM　ANDY
 position: M1
