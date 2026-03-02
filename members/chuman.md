@@ -5,6 +5,7 @@ role: master
 order: 2
 permalink: /members/chuman/
 id: chuman
+gallery_count: 1
 name_ja: 中馬　豪斗
 name_en: Taketo CHUMAN
 position: M2
@@ -14,7 +15,7 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image: /assets/images/members/chuman.jpg
+image_thumb: /assets/images/members/chuman.jpg
 research_tags:
   - 
 ---

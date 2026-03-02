@@ -4,13 +4,16 @@ title: 高橋 淳二
 role: faculty
 order: 0
 permalink: /members/takahashi/
+id: takahashi
+gallery_count: 2
 name_ja: 高橋 淳二
 name_en: Junji Takahashi
 position: 准教授
 affiliation: 豊橋技術科学大学 機械工学系
 email_user: takahashi
 email_domain: me.tut.ac.jp
-image: /assets/images/members/takahashi.jpg
+image_thumb: /assets/images/members/takahashi1.png
+#image_profile: /assets/images/members/takahashi2.png
 
 research_tags:
   - Visual-Geometric-Matching (VGM)

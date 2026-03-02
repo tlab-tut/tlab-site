@@ -5,6 +5,7 @@ role: master
 order: 21
 permalink: /members/kita/
 id: kita
+gallery_count: 1
 name_ja: 木田　博貴
 name_en: Hiroki KITA
 position: M1
@@ -14,7 +15,7 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image: /assets/images/members/kita.jpg
+image_thumb: /assets/images/members/kita.png
 research_tags:
   - NDT + Ceiling-VGM
 ---

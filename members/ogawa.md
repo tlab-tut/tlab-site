@@ -5,6 +5,7 @@ role: master
 order: 1
 permalink: /members/ogawa/
 id: ogawa
+gallery_count: 1
 name_ja: 小川 永遠
 name_en: Towa Ogawa
 position: M2
@@ -14,7 +15,7 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image: /assets/images/members/ogawa.jpg
+image_thumb: /assets/images/members/ogawa.png
 research_tags:
   - Smart living
 ---

@@ -27,7 +27,7 @@ permalink: /members/
   {% for m in group %}
   <div class="member-card">
     <a href="{{ m.url | relative_url }}">
-      <img src="{{ m.image | relative_url }}">
+      <img src="{{ m.image_thumb | relative_url }}">
       <h3>{{ m.name_ja }}</h3>
     </a>
     {% if m.position %}<p>{{ m.position }}</p>{% endif %}

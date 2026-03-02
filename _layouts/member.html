@@ -3,7 +3,21 @@ layout: page
 ---
 
 <div class="member-profile">
-  <img src="{{ page.image | relative_url }}" class="profile-img">
+
+  {% if page.gallery_count %}
+  <div class="member-gallery">
+    {% for i in (1..page.gallery_count) %}
+      <img src="{{ '/assets/images/members/' 
+                  | append: page.id 
+                  | append: '_gallery/' 
+                  | append: page.id 
+                  | append: i 
+                  | append: '.png' 
+                  | relative_url }}"
+          alt="">
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <h1>{{ page.name_ja }}</h1>
   <p>{{ page.position }} {{ page.year }}</p>
