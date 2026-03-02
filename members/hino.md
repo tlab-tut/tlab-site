@@ -15,7 +15,7 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image: /assets/images/members/hino.jpg
+image_thumb: /assets/images/members/hino.jpg
 research_tags:
   - Library
 ---
