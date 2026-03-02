@@ -14,7 +14,8 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image: /assets/images/members/konishi.jpg
+image_thumb: /assets/images/members/konishi.png
+image_profile: /assets/images/members/konishi.png
 research_tags:
   - Ceiling-VGM
 ---
