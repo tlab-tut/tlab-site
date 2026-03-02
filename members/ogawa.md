@@ -5,6 +5,7 @@ role: master
 order: 1
 permalink: /members/ogawa/
 id: ogawa
+gallery_count: 4
 name_ja: 小川 永遠
 name_en: Towa Ogawa
 position: M2

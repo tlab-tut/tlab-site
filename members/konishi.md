@@ -5,6 +5,7 @@ role: master
 order: 22
 permalink: /members/konishi/
 id: konishi
+gallery_count: 4
 name_ja: 小西　洸生
 name_en: Kosei KONISHI
 position: M1

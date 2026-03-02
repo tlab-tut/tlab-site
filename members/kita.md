@@ -5,6 +5,7 @@ role: master
 order: 21
 permalink: /members/kita/
 id: kita
+gallery_count: 4
 name_ja: 木田　博貴
 name_en: Hiroki KITA
 position: M1

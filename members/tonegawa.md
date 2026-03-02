@@ -5,6 +5,7 @@ role: master
 order: 23
 permalink: /members/tonegawa/
 id: tonegawa
+gallery_count: 4
 name_ja: 利根川　涼
 name_en: BAYANJARGAL DONIDDORJ
 position: M1
