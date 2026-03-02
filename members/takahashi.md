@@ -10,7 +10,7 @@ position: 准教授
 affiliation: 豊橋技術科学大学 機械工学系
 email_user: takahashi
 email_domain: me.tut.ac.jp
-image: /assets/images/members/takahashi.jpg
+image: /assets/images/members/takahashi2.jpg
 
 research_tags:
   - Visual-Geometric-Matching (VGM)
