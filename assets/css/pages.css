@@ -94,8 +94,29 @@
   border-radius: 10px;
 }
 
+.news-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+
+.news-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .member-gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (max-width: 700px) {
+
+  .news-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
