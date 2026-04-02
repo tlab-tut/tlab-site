@@ -1,14 +1,14 @@
 ---
 layout: member
 title: STANLEY SUSANTYO
-role: undergrad
+role: master
 order: 33
 permalink: /members/stanley/
 id: stanley
 gallery_count: 1
 name_ja: ステンリー
 name_en: SUSANTYO STANLEY
-position: B4
+position: M1
 author_key:
   - Stanley
   - ステンリー

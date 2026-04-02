@@ -8,7 +8,7 @@ id: doniddorj
 gallery_count: 1
 name_ja: バイナー
 name_en: BAYANJARGAL DONIDDORJ
-position: M2
+position: OB2025
 author_key:
   - Doniddorj
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻

@@ -1,14 +1,14 @@
 ---
 layout: member
 title: 森川　倭
-role: undergrad
+role: master
 order: 32
 permalink: /members/morikawa/
 id: morikawa
 gallery_count: 1
 name_ja: 森川　倭
 name_en: Yamato MORIKAWA
-position: B4
+position: M1
 author_key:
   - Morikawa
   - 森川

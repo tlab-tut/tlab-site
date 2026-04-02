@@ -8,7 +8,7 @@ id: tonegawa
 gallery_count: 1
 name_ja: 利根川　涼
 name_en: BAYANJARGAL DONIDDORJ
-position: M1
+position: M2
 author_key:
   - Tonegawa
   - 利根川

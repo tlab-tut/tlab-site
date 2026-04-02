@@ -8,7 +8,7 @@ id: hino
 gallery_count: 1
 name_ja: 日野　綾瀬
 name_en: Ayase HINO
-position: B4
+position: M1
 author_key:
   - Hino
   - 日野

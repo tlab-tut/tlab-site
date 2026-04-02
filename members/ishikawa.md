@@ -1,21 +1,21 @@
 ---
 layout: member
-title: 石川 
+title: 石川 慶人
 role: master
 order: 34
-permalink: /members/hino/
-id: hino
+permalink: /members/ishikawa/
+id: ishikawa
 gallery_count: 1
-name_ja: 日野　綾瀬
-name_en: Ayase HINO
-position: B4
+name_ja:  石川　慶人
+name_en: Keito ISHIKAWA
+position: M1
 author_key:
-  - Hino
-  - 日野
+  - Ishikawa
+  - 石川
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image_thumb: /assets/images/members/hino1.png
+image_thumb: /assets/images/members/ishikawa1.png
 research_tags:
   - Library
 ---
@@ -27,7 +27,7 @@ research_tags:
 
 
 ## 略歴
-- 仙台高専
+- 
 
 ## 趣味・関心
 - 

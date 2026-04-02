@@ -8,7 +8,7 @@ id: kita
 gallery_count: 1
 name_ja: 木田　博貴
 name_en: Hiroki KITA
-position: M1
+position: M2
 author_key:
   - Kita
   - 木田
