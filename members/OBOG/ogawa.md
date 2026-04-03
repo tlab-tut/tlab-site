@@ -1,14 +1,14 @@
 ---
 layout: member
 title: 小川 永遠
-role: master
+role: obog
 order: 1
 permalink: /members/ogawa/
 id: ogawa
 gallery_count: 1
 name_ja: 小川 永遠
 name_en: Towa Ogawa
-position: M2
+position: OB2025
 author_key:
   - Ogawa
   - 小川

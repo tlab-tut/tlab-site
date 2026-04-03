@@ -2,13 +2,13 @@
 layout: member
 title: 小西　洸生
 role: master
-order: 22
+order: 11
 permalink: /members/konishi/
 id: konishi
 gallery_count: 1
 name_ja: 小西　洸生
 name_en: Kosei KONISHI
-position: M1
+position: M2
 author_key:
   - Konishi
   - 小西

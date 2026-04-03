@@ -1,21 +1,21 @@
 ---
 layout: member
 title: STANLEY SUSANTYO
-role: undergrad
-order: 33
+role: master
+order: 23
 permalink: /members/stanley/
 id: stanley
 gallery_count: 1
 name_ja: ステンリー
 name_en: SUSANTYO STANLEY
-position: B4
+position: M1
 author_key:
   - Stanley
   - ステンリー
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image_thumb: /assets/images/members/stanley.png
+image_thumb: /assets/images/members/stanley1.png
 research_tags:
   - Object-VGM
 ---

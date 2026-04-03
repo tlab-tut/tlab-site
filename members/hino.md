@@ -1,21 +1,21 @@
 ---
 layout: member
 title: 日野　綾瀬
-role: undergrad
-order: 31
+role: master
+order: 21
 permalink: /members/hino/
 id: hino
 gallery_count: 1
 name_ja: 日野　綾瀬
 name_en: Ayase HINO
-position: B4
+position: M1
 author_key:
   - Hino
   - 日野
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image_thumb: /assets/images/members/hino.png
+image_thumb: /assets/images/members/hino1.png
 research_tags:
   - Library
 ---

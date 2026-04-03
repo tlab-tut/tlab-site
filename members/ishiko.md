@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 石河　大
-role: master
+role: master-kyugaku
 order: 4
 permalink: /members/ishiko/
 id: ishiko

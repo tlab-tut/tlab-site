@@ -1,14 +1,14 @@
 ---
 layout: member
 title: 中馬　豪斗
-role: master
+role: obog
 order: 2
 permalink: /members/chuman/
 id: chuman
 gallery_count: 1
 name_ja: 中馬　豪斗
 name_en: Taketo CHUMAN
-position: M2
+position: OB2025
 author_key:
   - Chuman
   - 中馬
