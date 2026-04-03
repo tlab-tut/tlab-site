@@ -2,7 +2,7 @@
 layout: member
 title: 橋本　貴輝
 role: staff
-order: 13
+order: 51
 permalink: /members/hashimoto/
 id: hashimoto
 gallery_count: 1
