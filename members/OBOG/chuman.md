@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 中馬　豪斗
-role: master
+role: obog
 order: 2
 permalink: /members/chuman/
 id: chuman

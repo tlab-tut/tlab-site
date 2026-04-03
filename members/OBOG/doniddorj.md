@@ -1,7 +1,7 @@
 ---
 layout: member
 title: DONIDDORJ BAYANJARGAL
-role: master
+role: obog
 order: 3
 permalink: /members/doniddorj/
 id: doniddorj

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 小川 永遠
-role: master
+role: obog
 order: 1
 permalink: /members/ogawa/
 id: ogawa
