@@ -2,7 +2,7 @@
 layout: member
 title: ANDY WILLIAM
 role: master
-order: 24
+order: 14
 permalink: /members/andy/
 id: andy
 gallery_count: 1

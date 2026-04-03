@@ -2,7 +2,7 @@
 layout: member
 title: 利根川　涼
 role: master
-order: 23
+order: 12
 permalink: /members/tonegawa/
 id: tonegawa
 gallery_count: 1

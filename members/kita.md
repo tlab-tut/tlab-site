@@ -2,7 +2,7 @@
 layout: member
 title: 木田　博貴
 role: master
-order: 21
+order: 13
 permalink: /members/kita/
 id: kita
 gallery_count: 1

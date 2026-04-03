@@ -2,7 +2,7 @@
 layout: member
 title: 石川 慶人
 role: master
-order: 34
+order: 24
 permalink: /members/ishikawa/
 id: ishikawa
 gallery_count: 1

@@ -2,7 +2,7 @@
 layout: member
 title: STANLEY SUSANTYO
 role: master
-order: 33
+order: 23
 permalink: /members/stanley/
 id: stanley
 gallery_count: 1

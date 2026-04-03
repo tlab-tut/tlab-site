@@ -2,7 +2,7 @@
 layout: member
 title: 小西　洸生
 role: master
-order: 22
+order: 11
 permalink: /members/konishi/
 id: konishi
 gallery_count: 1

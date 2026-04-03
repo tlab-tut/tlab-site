@@ -2,7 +2,7 @@
 layout: member
 title: 日野　綾瀬
 role: master
-order: 31
+order: 21
 permalink: /members/hino/
 id: hino
 gallery_count: 1

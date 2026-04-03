@@ -2,7 +2,7 @@
 layout: member
 title: 森川　倭
 role: master
-order: 32
+order: 22
 permalink: /members/morikawa/
 id: morikawa
 gallery_count: 1
