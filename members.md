@@ -16,9 +16,11 @@ permalink: /members/
 {% case r %}
 {% when "faculty" %}Faculty
 {% when "postdoc" %}Postdoctoral Researcher
+{% when "researcher" %}Researcher
 {% when "doctoral" %}Doctoral Students
 {% when "master" %}Master Students
 {% when "undergrad" %}Undergraduate Students
+{% when "staff" %}Staff
 {% when "alumni" %}Alumni
 {% endcase %}
 </h2>

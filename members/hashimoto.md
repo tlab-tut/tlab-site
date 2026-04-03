@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 橋本　貴輝
-role: researcher
+role: staff
 order: 13
 permalink: /members/hashimoto/
 id: hashimoto
