@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 久末 晃平
-role: bachelor
+role: undergra
 order: 31
 permalink: /members/hisasue/
 id: hisasue

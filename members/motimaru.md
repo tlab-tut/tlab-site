@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 持丸 拓哉
-role: bachelor
+role: undergra
 order: 33
 permalink: /members/motimaru/
 id: motimaru
