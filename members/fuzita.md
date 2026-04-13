@@ -1,7 +1,7 @@
 ---
 layout: member
 title: 藤田 雅邦
-role: undergra
+role: undergrad
 order: 32
 permalink: /members/fuzita/
 id: fuzita
