@@ -12,7 +12,7 @@ position: B4
 author_key:
   - hisasue
   - 久末
-affiliation: 豊橋技術科学大学 博士前期課程機械工学課程
+affiliation: 豊橋技術科学大学 機械工学課程
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
 image_thumb: /assets/images/members/hisasue1.png
