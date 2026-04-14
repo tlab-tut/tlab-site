@@ -114,3 +114,54 @@ document.addEventListener("DOMContentLoaded", () => {
     </li>
   {% endfor %}
 </ul>
+
+<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
+  <strong>産学連携・技術相談はこちら</strong><br><br>
+  <div style="display: flex; align-items: center; gap: 20px; margin-top: 1rem; flex-wrap: wrap;">
+    <a href="https://rac.tut.ac.jp/org02/tcform/" target="_blank"
+      style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
+      お問い合わせフォームへ
+    </a>
+    <div style="margin-top: 1rem;">
+      <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
+          alt="問い合わせQRコード"
+          style="width:120px; height:auto;">
+    </div>
+  </div>
+</div>
+
+<h2>各種リンク</h2>
+
+<h3>所属・大学関連</h3>
+<ul>
+  <li><a href="https://www.tut.ac.jp/" target="_blank">豊橋技術科学大学</a></li>
+  <li><a href="https://www.me.tut.ac.jp/" target="_blank">機械工学系</a></li>
+</ul>
+
+<h3>研究・プロジェクト</h3>
+<ul>
+  <li><a href="{{ '/research/' | relative_url }}">研究紹介</a></li>
+</ul>
+
+<h3>産学連携・技術相談</h3>
+<ul>
+  <li><a href="https://www.tut.ac.jp/develop/collaboration/consultation.html" target="_blank">
+    産学連携・共同研究窓口（TUT）
+  </a></li>
+  <li><a href="{{ '/contact/' | relative_url }}">
+    技術相談・お問い合わせ（研究室）
+  </a></li>
+</ul>
+
+<h3>国際連携</h3>
+<ul>
+  <li><a href="https://www.ipa.fraunhofer.de/en.html" target="_blank">Fraunhofer IPA</a></li>
+</ul>
+
+<h3>学会</h3>
+<ul>
+  <li><a href="https://www.jsme.or.jp/" target="_blank">日本機械学会</a></li>
+  <li><a href="https://www.sice.jp/" target="_blank">計測自動制御学会</a></li>
+  <li><a href="https://www.rsj.or.jp/" target="_blank">日本ロボット学会</a></li>
+  <li><a href="https://www.ieee.org" target="_blank">IEEE</a></li>
+</ul>
