@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
   <strong>産学連携・技術相談はこちら</strong><br><br>
 
-  <a href="{{ '/contact/' | relative_url }}"
+  <a href="https://rac.tut.ac.jp/org02/tcform/" target="_blank"
      style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
     お問い合わせフォームへ
   </a>
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <h3>産学連携・技術相談</h3>
 <ul>
-  <li><a href="https://www.tut.ac.jp/research/collaboration/" target="_blank">
+  <li><a href="https://www.tut.ac.jp/develop/collaboration/consultation.html" target="_blank">
     産学連携・共同研究窓口（TUT）
   </a></li>
   <li><a href="{{ '/contact/' | relative_url }}">
