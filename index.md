@@ -114,3 +114,20 @@ document.addEventListener("DOMContentLoaded", () => {
     </li>
   {% endfor %}
 </ul>
+
+<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
+  <strong>産学連携・技術相談はこちら</strong><br><br>
+
+  <a href="{{ '/contact/' | relative_url }}"
+     style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
+    お問い合わせフォームへ
+  </a>
+
+  <div style="margin-top: 1rem;">
+    <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
+         alt="問い合わせQRコード"
+         style="width:120px;">
+  </div>
+</div>
+
+<h2>各種リンク</h2>
