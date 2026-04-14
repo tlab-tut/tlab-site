@@ -117,16 +117,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
   <strong>産学連携・技術相談はこちら</strong><br><br>
-
-  <a href="https://rac.tut.ac.jp/org02/tcform/" target="_blank"
-     style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
-    お問い合わせフォームへ
-  </a>
-
-  <div style="margin-top: 1rem;">
+  <div style="display: flex; align-items: center; gap: 20px; margin-top: 1rem; flex-wrap: wrap;">
+    <a href="https://rac.tut.ac.jp/org02/tcform/" target="_blank"
+      style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
+      お問い合わせフォームへ
+    </a>
     <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
+        alt="問い合わせQRコード"
+        style="width:120px;">
+  </div>
+</div>
+
+<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
+  <strong>産学連携・技術相談はこちら</strong>
+
+  <div style="display: flex; align-items: center; gap: 20px; margin-top: 1rem; flex-wrap: wrap;">
+
+    <!-- ボタン -->
+    <a href="{{ '/contact/' | relative_url }}"
+       style="display:inline-block; padding:0.7rem 1.2rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px; white-space: nowrap;">
+      お問い合わせフォームへ
+    </a>
+
+    <!-- QRコード -->
+    <img src="{{ '/assets/images/qr_contact.png' | relative_url }}"
          alt="問い合わせQRコード"
-         style="width:120px;">
+         style="width:120px; height:auto;">
   </div>
 </div>
 
