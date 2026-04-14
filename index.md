@@ -146,10 +146,10 @@ document.addEventListener("DOMContentLoaded", () => {
 <h3>産学連携・技術相談</h3>
 <ul>
   <li><a href="https://www.tut.ac.jp/develop/collaboration/consultation.html" target="_blank">
-    産学連携・共同研究窓口（TUT）
+    産学連携・共同研究・技術相談窓口（TUT）
   </a></li>
   <li><a href="{{ '/contact/' | relative_url }}">
-    技術相談・お問い合わせ（研究室）
+    大学院進学・学部進学（高専・高校・編入）・研究員希望の方はこちら（研究室）
   </a></li>
 </ul>
 
