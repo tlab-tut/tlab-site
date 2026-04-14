@@ -122,30 +122,11 @@ document.addEventListener("DOMContentLoaded", () => {
       style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
       お問い合わせフォームへ
     </a>
-
     <div style="margin-top: 1rem;">
       <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
           alt="問い合わせQRコード"
-          style="width:120px;">
+          style="width:120px; height:auto;">
     </div>
-  </div>
-</div>
-
-<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
-  <strong>産学連携・技術相談はこちら</strong>
-
-  <div style="display: flex; align-items: center; gap: 20px; margin-top: 1rem; flex-wrap: wrap;">
-
-    <!-- ボタン -->
-    <a href="{{ '/contact/' | relative_url }}"
-       style="display:inline-block; padding:0.7rem 1.2rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px; white-space: nowrap;">
-      お問い合わせフォームへ
-    </a>
-
-    <!-- QRコード -->
-    <img src="{{ '/assets/images/qr_contact.png' | relative_url }}"
-         alt="問い合わせQRコード"
-         style="width:120px; height:auto;">
   </div>
 </div>
 
@@ -174,11 +155,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <h3>国際連携</h3>
 <ul>
-  <li><a href="https://www.ipa.fraunhofer.de/" target="_blank">Fraunhofer IPA</a></li>
+  <li><a href="https://www.ipa.fraunhofer.de/en.html" target="_blank">Fraunhofer IPA</a></li>
 </ul>
 
 <h3>学会</h3>
 <ul>
   <li><a href="https://www.jsme.or.jp/" target="_blank">日本機械学会</a></li>
   <li><a href="https://www.sice.jp/" target="_blank">SICE</a></li>
+  <li><a href="https://www.rsj.or.jp/" target="_blank">日本ロボット学会</a></li>
+ 　<li><a href="https://www.ieee.org" target="_blank">IEEE</a></li>
 </ul>
