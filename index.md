@@ -122,9 +122,12 @@ document.addEventListener("DOMContentLoaded", () => {
       style="display:inline-block; padding:0.6rem 1rem; background:#2c7be5; color:white; text-decoration:none; border-radius:5px;">
       お問い合わせフォームへ
     </a>
-    <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
-        alt="問い合わせQRコード"
-        style="width:120px;">
+
+    <div style="margin-top: 1rem;">
+      <img src="{{ '/assets/images/qr_contact_type2.png' | relative_url }}"
+          alt="問い合わせQRコード"
+          style="width:120px;">
+    </div>
   </div>
 </div>
 
