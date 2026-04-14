@@ -2,7 +2,7 @@
 layout: member
 title: 川田 貴優
 role: master
-order: 24
+order: 25
 permalink: /members/kawada/
 id: kawada
 gallery_count: 1
@@ -17,7 +17,7 @@ affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_domain: tut.jp
 image_thumb: /assets/images/members/kawada1.png
 research_tags:
-  - Library
+  - 
 ---
 
 ## 研究テーマ
