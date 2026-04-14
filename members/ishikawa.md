@@ -17,7 +17,7 @@ affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_domain: tut.jp
 image_thumb: /assets/images/members/ishikawa1.png
 research_tags:
-  - Library
+  - 
 ---
 
 ## 研究テーマ
