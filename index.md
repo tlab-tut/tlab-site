@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <h3>学会</h3>
 <ul>
   <li><a href="https://www.jsme.or.jp/" target="_blank">日本機械学会</a></li>
-  <li><a href="https://www.sice.jp/" target="_blank">SICE</a></li>
+  <li><a href="https://www.sice.jp/" target="_blank">計測自動制御学会</a></li>
   <li><a href="https://www.rsj.or.jp/" target="_blank">日本ロボット学会</a></li>
  　<li><a href="https://www.ieee.org" target="_blank">IEEE</a></li>
 </ul>
