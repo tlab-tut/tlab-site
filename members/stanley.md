@@ -2,7 +2,7 @@
 layout: member
 title: STANLEY SUSANTYO
 role: master
-order: 26
+order: 23
 permalink: /members/stanley/
 id: stanley
 gallery_count: 1
@@ -15,7 +15,7 @@ author_key:
 affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_user: ogawa.towa.xx
 #email_domain: tut.jp
-image_thumb: /assets/images/members/morikawa1.png
+image_thumb: /assets/images/members/stanley1.png
 research_tags:
   - Object-VGM
 ---
