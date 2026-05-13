@@ -17,16 +17,16 @@ affiliation: 豊橋技術科学大学 博士前期課程機械工学専攻
 #email_domain: tut.jp
 image_thumb: /assets/images/members/kita1.png
 research_tags:
-  - NDT + Ceiling-VGM
+  - NDT + Panorama-VGM
 ---
 
 ## 研究テーマ
-VGMの性能向上（NDTの利用）
+- 新VGMの開発、既存VGMの性能向上（NDTの利用）
 
 
 ## 研究キーワード
 - NDT
-- Ceiling-VGM
+- VGM
 
 
 ## 略歴
@@ -34,3 +34,4 @@ VGMの性能向上（NDTの利用）
 
 ## 趣味・関心
 - ロボコン
+- 自動車

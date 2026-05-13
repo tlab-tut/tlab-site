@@ -22,14 +22,19 @@ research_tags:
 ---
 
 ## 研究テーマ
-
+- 可変ゾーニング工場における搬送ロボットの自動化
 
 ## 研究キーワード
-- 
+- D* Lite
+- Navigation
+- Path Planning
+- Obstacle Avoidance
+- LiDAR
 
 
 ## 略歴
 - 広島商船高専
 
 ## 趣味・関心
-- 
+- ロボコン
+- ゲーム・ツール制作
