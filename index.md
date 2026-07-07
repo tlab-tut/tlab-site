@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<h2>お知らせ</h2>
+<h2>最新のお知らせ</h2>
 <ul>
   {% for post in site.posts limit:3 %}
     <li>
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </ul>
 
 <details class="news-more">
-  <summary>お知らせ一覧はこちら</summary>
+  <summary>過去のお知らせ一覧はこちら</summary>
   <ul class="news-list">
     {% for post in site.posts offset:3 %}
       <li>
