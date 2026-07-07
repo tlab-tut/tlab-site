@@ -114,3 +114,15 @@ document.addEventListener("DOMContentLoaded", () => {
     </li>
   {% endfor %}
 </ul>
+
+<details class="news-more">
+  <summary>お知らせ一覧はこちら</summary>
+  <ul class="news-list">
+    {% for post in site.posts offset:3 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+</details>
