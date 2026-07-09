@@ -1,3 +1,27 @@
+- title: 図書館における誤配架図書の検出・位置マッピングのための背ラベル読取ロボットシステムの構築
+  authors: 日野綾瀬， 高橋淳二，吉田武史， 堀尾亮介
+  venue: ロボティクス・メカトロニクス講演会2026
+  year: 2026
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: Direct Edge Alignmentを統合したOptimized-VGMによるドリフトフリー6DoF位置推定
+  authors: 利根川涼， 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2026
+  year: 2026
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 可変ゾーニング工場におけるCeiling-VGM位置推定を用いたAMRの自律移動
+  authors: 小西洸生， 高橋淳二
+  venue: ロボティクス・メカトロニクス講演会2026
+  year: 2026
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
 - title: Sim to Realによる汚れ評価のためのビルメンテナンスロボット
   authors: 小川永遠, 高橋淳二, 吉田武史
   venue: SICE東海支部 研究発表＆企業交流会

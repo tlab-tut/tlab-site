@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<h2>お知らせ</h2>
+<h2>最新のお知らせ</h2>
 <ul>
   {% for post in site.posts limit:3 %}
     <li>
@@ -114,6 +114,18 @@ document.addEventListener("DOMContentLoaded", () => {
     </li>
   {% endfor %}
 </ul>
+
+<details class="news-more">
+  <summary>過去のお知らせ一覧はこちら</summary>
+  <ul class="news-list">
+    {% for post in site.posts offset:3 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+</details>
 
 <div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
   <strong>産学連携・技術相談はこちら</strong><br><br>
