@@ -100,7 +100,7 @@ permalink: /research/
   {% endif %}
   <div class="research-card {% unless ready_agri %}disabled{% endunless %}">
     {% unless ready_agri %}<span class="card-arrow">準備中</span>{% else %}<span class="card-arrow">→</span>{% endunless %}
-    <img src="{{ '/assets/images/research/Field_of_AgliTech2.png' | relative_url }}" alt="Agritech AMR">
+    <img src="{{ '/assets/images/research/Field_of_AgliTech2.jpg' | relative_url }}" alt="Agritech AMR">
     <h3>農作業補助ロボットの自律移動</h3>
     <p>
       屋外環境における自律走行と作業支援の実現を目指します。
