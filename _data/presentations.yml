@@ -1,3 +1,10 @@
+- title: "Obj-VGM: Visual-Geometric-Matching Using 3D CAD Model of Large Objects for AMR Self-Localization"
+  authors: Stanley Susantyo, Junji Takahashi
+  venue: 23rd International Conference on Ubiquitous Robots (UR 2026)
+  category: international
+  presentation_type: poster
+  award: false
+  language: en
 - title: 図書館における誤配架図書の検出・位置マッピングのための背ラベル読取ロボットシステムの構築
   authors: 日野綾瀬， 高橋淳二，吉田武史， 堀尾亮介
   venue: ロボティクス・メカトロニクス講演会2026
