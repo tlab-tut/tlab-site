@@ -1,3 +1,11 @@
+- title: 単眼カメラと事前マップを用いた6-DoF位置推定のためのOptimized-VGMの提案
+  authors: 利根川涼， 高橋淳二
+  venue: 第44 回日本ロボット学会学術講演会
+  year: 2026
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
 - title: "Obj-VGM: Visual-Geometric-Matching Using 3D CAD Model of Large Objects for AMR Self-Localization"
   authors: Stanley Susantyo, Junji Takahashi
   venue: 23rd International Conference on Ubiquitous Robots (UR 2026)

@@ -7,7 +7,7 @@ permalink: /members/tonegawa/
 id: tonegawa
 gallery_count: 3
 name_ja: 利根川　涼
-name_en: BAYANJARGAL DONIDDORJ
+name_en: Ryo TONEGAWA
 position: M2
 author_key:
   - Tonegawa
@@ -21,12 +21,13 @@ research_tags:
 ---
 
 ## 研究テーマ
-- Optimized-VGMによるドリフトフリー６DoF位置推定
+- Optimized-VGMによる6-DoF位置推定
 
 ## 研究キーワード
 - Direct Edge Alignment, 
 - Visual Inertia Odometry
 - Unmanned Aerial Vehicle
+- Factor Graph
 
 
 ## 略歴
