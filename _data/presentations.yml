@@ -1,7 +1,26 @@
+- title: レイアウトが変化する環境におけるAdaptive-Grid-D* Liteに基づくAMRナビゲーション
+  authors: 小西洸生， 高橋淳二
+  venue: 第44回日本ロボット学会学術講演会
+  year: 2026
+  month: 9
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
 - title: 単眼カメラと事前マップを用いた6-DoF位置推定のためのOptimized-VGMの提案
   authors: 利根川涼， 高橋淳二
-  venue: 第44 回日本ロボット学会学術講演会
+  venue: 第44回日本ロボット学会学術講演会
   year: 2026
+  month: 9
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: 球面投影テンプレート画像を用いたVGMにおけるカメラ設置姿勢の自由度向上
+  authors: 木田博貴， 高橋淳二
+  venue: 第44回日本ロボット学会学術講演会
+  year: 2026
+  month: 9
   category: domestic
   presentation_type: oral
   award: false
@@ -14,18 +33,11 @@
   presentation_type: poster
   award: false
   language: en
-- title: 図書館における誤配架図書の検出・位置マッピングのための背ラベル読取ロボットシステムの構築
-  authors: 日野綾瀬， 高橋淳二，吉田武史， 堀尾亮介
-  venue: ロボティクス・メカトロニクス講演会2026
-  year: 2026
-  category: domestic
-  presentation_type: poster
-  award: false
-  language: ja
 - title: Direct Edge Alignmentを統合したOptimized-VGMによるドリフトフリー6DoF位置推定
   authors: 利根川涼， 高橋淳二
   venue: ロボティクス・メカトロニクス講演会2026
   year: 2026
+  month: 7
   category: domestic
   presentation_type: poster
   award: false
@@ -34,6 +46,16 @@
   authors: 小西洸生， 高橋淳二
   venue: ロボティクス・メカトロニクス講演会2026
   year: 2026
+  month: 7
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 図書館における誤配架図書の検出・位置マッピングのための背ラベル読取ロボットシステムの構築
+  authors: 日野綾瀬， 高橋淳二，吉田武史， 堀尾亮介
+  venue: ロボティクス・メカトロニクス講演会2026
+  year: 2026
+  month: 6
   category: domestic
   presentation_type: poster
   award: false
