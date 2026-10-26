@@ -4,10 +4,9 @@ title: 発表
 permalink: /presentations/
 ---
 
-{% assign pres = site.data.presentations
-   | sort: "year" | reverse %}
+{% assign pres = site.data.presentations %}
 
-{% assign years = pres | map: "year" | uniq %}
+{% assign years = pres | map: "year" | uniq | sort | reverse %}
 
 {% for y in years %}
 
@@ -46,7 +45,7 @@ permalink: /presentations/
   {{ pub.authors }},
   「{{ pub.title }}」,
   {{ pub.venue }},
-  {{ pub.year }}.
+  {{ pub.year }}.{% if pub.month %}{{ pub.month }}.{% endif %}
 </li>
 {% endfor %}
 </ul>
