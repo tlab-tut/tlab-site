@@ -1,3 +1,57 @@
+- title: 駐車場内の車両流動解析に向けた丁字路における車両追跡
+  authors: 持丸拓哉， 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 施設園芸におけるロボットの自律移動に向けたVGMとARマーカによる自己位置推定システムの開発
+  authors: 久末晃平， 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 物体CADモデルを使ったロボット自己位置推定システム
+  authors: Stanley Susantyo， 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 屋外VGMに向けた建物領域セグメンテーション手法の比較評価（仮）
+  authors: 石川慶人， 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: NDTの適用によるSphere-VGMの位置推定高速化に向けた検討
+  authors: 森川倭， 木田博貴， 高橋淳二
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
+- title: 図書館における背ラベル認識と球面投影型位置推定を用いた配架点検ロボットシステム
+  authors: 日野綾瀬， 高橋淳二， 吉田武史， 堀尾亮介
+  venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: poster
+  award: false
+  language: ja
 - title: レイアウトが変化する環境におけるAdaptive-Grid-D* Liteに基づくAMRナビゲーション
   authors: 小西洸生， 高橋淳二
   venue: 第44回日本ロボット学会学術講演会
