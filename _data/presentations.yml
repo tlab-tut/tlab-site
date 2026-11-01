@@ -1,3 +1,21 @@
+- title: 設置物の線分特徴照合と視野内保持制御を利用したロボット自己位置推定
+  authors: Stanley Susantyo， 高橋淳二
+  venue: 計測自動制御学会計測部門スマートセンシングシステム部会研究発表会
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
+- title: S-VGMへのNDT導入による位置推定性能の検証
+  authors: 森川倭， 木田博貴， 高橋淳二
+  venue: 計測自動制御学会計測部門スマートセンシングシステム部会研究発表会
+  year: 2026
+  month: 10
+  category: domestic
+  presentation_type: oral
+  award: false
+  language: ja
 - title: 駐車場内の車両流動解析に向けた丁字路における車両追跡
   authors: 持丸拓哉， 高橋淳二
   venue: 計測自動制御学会中部支部研究発表＆企業交流会2026
